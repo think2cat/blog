@@ -1,4 +1,3 @@
----
 title: 骑木兰山，不过如此
 tags:
   - 木兰山
@@ -8,7 +7,6 @@ categories:
   - Life
 date: 2010-11-07 22:28:47
 ---
+![骑行轨迹](/images/2012/03/gps.gif)
 
-![](/images/2012/03/骑行轨迹.gif "骑行轨迹")
-
-![](/images/2010/11/IMG_1316.jpg)
+![木兰山](/images/2010/11/IMG_1316.jpg)
