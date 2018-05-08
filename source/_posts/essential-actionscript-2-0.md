@@ -1,4 +1,3 @@
----
 title: Essential ActionScript 2.0
 tags:
   - flash
@@ -11,7 +10,7 @@ date: 2004-04-24 22:07:00
 ![Essential ActionScript 2.0](/images/2004/04/24_12794.jpg)
 by colin moock
 http://moock.org/eas2/
-
+<!--more-->
 \>\> read chapter 2 (available at macromedia.com)
 http://www.macromedia.com/devnet/mx/flash/articles/as2_moock.html
 \>\> download chapter 12 OOP currency converter application

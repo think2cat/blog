@@ -16,7 +16,8 @@ date: 2003-10-21 05:25:00
 
 [官方网站](http://www.sharpreader.net/) | [下载](http://www.sharpreader.net/SharpReader0921.zip)
 <!--more-->
-#### 顺便贴RSS相关网页
+
+** 顺便贴RSS相关网页 **
 
 * RSS 2.0 规范
 [http://blogs.law.harvard.edu/tech/rss](http://blogs.law.harvard.edu/tech/rss)
@@ -43,16 +44,11 @@ RSS(RDF Site Summary)就是用RDF(Resource Description Framework)定义的站点
 
 [下载该程序](http://uckan.info/rssify_b/download/index.php) | [在线演示](http://uckan.info/rssify_b/demo/index.php)
 
-#### 一些好的RSS
+** 一些好的RSS **
 
-Snow's Blog [http://www.7dev.net/blog/index.xml](http://www.7dev.net/blog/index.xml)
-
-Danger's Blog [http://www.dengjie.com/rss.asp](http://www.dengjie.com/rss.asp)
-
-7yue's Blog [http://www.7yue.com/blog/rss.cfm](http://www.7yue.com/blog/rss.cfm)
-
-蓝色经典 [http://www.blueidea.com/tech/rss.xml](http://www.blueidea.com/tech/rss.xml)
-
-微软MSDN [http://msdn.microsoft.com/rss.xml](http://msdn.microsoft.com/rss.xml)
-
-Gavin's Blog(就是我的啦^_*)[http://www.21ido.com/atom.xml](/atom.xml)
+* Snow's Blog [http://www.7dev.net/blog/index.xml](http://www.7dev.net/blog/index.xml)
+* Danger's Blog [http://www.dengjie.com/rss.asp](http://www.dengjie.com/rss.asp)
+* 7yue's Blog [http://www.7yue.com/blog/rss.cfm](http://www.7yue.com/blog/rss.cfm)
+* 蓝色经典 [http://www.blueidea.com/tech/rss.xml](http://www.blueidea.com/tech/rss.xml)
+* 微软MSDN [http://msdn.microsoft.com/rss.xml](http://msdn.microsoft.com/rss.xml)
+* Gavin's Blog(就是我的啦^_*)[http://www.21ido.com/atom.xml](/atom.xml)

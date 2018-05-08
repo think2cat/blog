@@ -1,4 +1,3 @@
----
 title: Flash ActionScript 1.0 学习笔记(2)
 tags:
   - actionscript
@@ -8,10 +7,8 @@ categories:
   - Flash
 date: 2005-05-26 01:19:00
 ---
-
 19.鼠标双击拖动
-
-<DIV style="BORDER-RIGHT: #ccf 1px dotted; PADDING-RIGHT: 5px; BORDER-TOP: #ccf 1px dotted; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #ccf 1px dotted; WIDTH: 90%; PADDING-TOP: 5px; BORDER-BOTTOM: #ccf 1px dotted">
+```as
 Mouse.doubleClick = function(clickTime){
 if(!clickTime){
 clickTime = 500;
@@ -20,11 +17,10 @@ if(Mouse.lastClickTime-(Mouse.lastClickTime=getTimer()+clickTime&gt;0)){
 return ture;
 }
 }
-</DIV>
+````
 
-20.鼠标移动速度
-
-<DIV style="BORDER-RIGHT: #ccf 1px dotted; PADDING-RIGHT: 5px; BORDER-TOP: #ccf 1px dotted; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #ccf 1px dotted; WIDTH: 90%; PADDING-TOP: 5px; BORDER-BOTTOM: #ccf 1px dotted">
+20.鼠标移动速度<!--more-->
+```as
 function mouseSpeedObj(fps) {
 this.fps = fps;
 this.distArray = [];
@@ -55,11 +51,10 @@ foo = new _parent.mouseSpeedObj(12);
 onClipEvent (enterFrame) {
 ms = foo.speed();
 }
-</DIV>
+```
 
 21.mouseDown事件只能检查鼠标左键，要检查右键、中键应用enterFrame
-
-<DIV style="BORDER-RIGHT: #ccf 1px dotted; PADDING-RIGHT: 5px; BORDER-TOP: #ccf 1px dotted; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #ccf 1px dotted; WIDTH: 90%; PADDING-TOP: 5px; BORDER-BOTTOM: #ccf 1px dotted">
+```as
 if (Mouse.checkBtnClicked(1)) {
 // 按下左键
 if (!hitTest(_root._xmouse, _root._ymouse, true)) {
@@ -79,16 +74,18 @@ _x = _root._xmouse;
 _y = _root._ymouse;
 trace("中");
 }
-</DIV>
+```
 
 22.keyPress有一个特点，当键盘被按下不释放时，里面的程序连续执行。Flash最多支持同时按下三个键
 
 23.让网页中的Flash得到焦点，(只支持WinIE)
 
 24.麦克风对象
+```as
 myMic = Microphone.get(); //创建Mic对象
 createEmptyMovieClip("micMC",100); //创建空剪辑
 micMC.attachAudio(myMic); //将Mic对象附加到剪辑上
+```
 activityLevel属性，返回声音音量，int类型0～100
 onActivity事件，开始说话或停止说话时触发一次，默认值是10和2s，表示连续2秒音量都低于10，可以利用setSilenceLevel修改
 setSilenceLevel()方法，setSilenceLevel(level,timeout)，level在0～100间，timeout以ms为单位
@@ -102,4 +99,6 @@ setSilenceLevel()方法，setSilenceLevel(level,timeout)，level在0～100间，
 
 28.getTimer()函数返回的是Flash自播放起累计时间，单位ms
 Date对象返回1970年1月1日午夜以来时间，单位ms
+```as
 var myTimer = new Date().getTimer();
+```

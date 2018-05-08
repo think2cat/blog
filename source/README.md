@@ -10,11 +10,11 @@
 ---
 
 ## :pill:To-Do: 
-* wordpress到markdown转换(5% complete)
-* 页面美化
-* add about page
-* add search
-*  :octocat:etc...
+- [ ]wordpress到markdown转换(25% complete)
+- [ ]页面美化
+- [ ]add about page
+- [x]add search
+-  :octocat:etc...
 
 
 ## :lemon:Info:
