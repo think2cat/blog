@@ -13,13 +13,20 @@ date: 2008-01-25 12:25:48
 
 公司一个ASP网站，要调用Java写的SOAP接口，本来想用微软那个 SOAP Toolkit提交，可是一直报错（参数错误），也不明白什么问题，只好用最原始的http请求，期间碰到许多问题，做下摘记，希望能让些人少走弯路
 
-*   post过去后服务器报错，例如**tomcat报500错误**，可能是post的编码不对，检查下
-*   SOAP返回<span style="color: rgb(51, 102, 255);"><span dragover="true">&lt;faultstring&gt;The endpoint reference (EPR) for the Operation not found is http://xxx.xxx.xxx.xxx/services/ScoreService and the WSA Action = null&lt;/faultstring&gt;</span></span>，那是http头没加action项，试试添加一行 <span style="color: rgb(255, 102, 0);">objXML.setRequestHeader &quot;SOAPAction&quot;, &quot;Update&quot;</span>，其中 update 是对应WSDL的方法
-*   提示&ldquo;<span style="color: rgb(51, 102, 255);">Transport level information does not match with SOAP Message namespace</span>&rdquo;，检查xmlns属性，别搞混了
-    &quot;<span style="color: rgb(255, 102, 0);">http://schemas.xmlsoap.org/soap/envelope/</span>&quot;, 是 SOAP 1.1
-    &quot;<span style="color: rgb(255, 102, 0);">http://www.w3.org/2003/05/soap-envelope</span>&quot;, 是 SOAP 1.2
+* post过去后服务器报错，例如** tomcat报500错误 **，可能是post的编码不对，检查下
+* SOAP返回
+  > &lt;faultstring&gt;The endpoint reference (EPR) for the Operation not found is http://xxx.xxx.xxx.xxx/services/ScoreService and the WSA Action = null&lt;/faultstring&gt;
+  那是http头没加action项，试试添加一行
+  ```vbs
+  objXML.setRequestHeader &quot;SOAPAction&quot;, &quot;Update&quot;
+  ```
+  其中 update 是对应WSDL的方法
+* 提示
+  > Transport level information does not match with SOAP Message namespace
+  检查xmlns属性，别搞混了
+  http://schemas.xmlsoap.org/soap/envelope/ 是 SOAP 1.1
+  http://www.w3.org/2003/05/soap-envelope 是 SOAP 1.2
 
-&nbsp;
 
 附上相关文档地址
 
