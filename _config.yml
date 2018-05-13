@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://21ido.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -77,3 +77,20 @@ search:
   field: post
   format: html
   limit: 10000
+  
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: /images/loading.gif
+
+all_minifier: true
+
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex    
+  
+sitemap:
+    path: sitemap.xml
+
+baidusitemap:
+    path: baidusitemap.xml

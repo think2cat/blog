@@ -1,3 +1,4 @@
+---
 title: 2011上海马拉松，有你更精彩
 tags:
   - 上海
@@ -9,6 +10,7 @@ tags:
 id: 1298
 categories:
   - Life
+abbrlink: df42cfe6
 date: 2011-12-30 22:43:37
 ---
 [![2011上海马拉松](/images/2011/12/IMG_5785.jpg "IMG_5785")](/images/2011/12/IMG_5785.jpg)

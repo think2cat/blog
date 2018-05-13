@@ -1,3 +1,4 @@
+---
 title: 探访西沟
 tags:
   - 徒步
@@ -8,6 +9,7 @@ tags:
 id: 1131
 categories:
   - Life
+abbrlink: a0be742e
 date: 2010-09-02 00:45:58
 ---
 [![](/images/2010/09/DSC02099.jpg "DSC02099")](/images/2010/09/DSC02099.jpg)

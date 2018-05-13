@@ -9,6 +9,7 @@ tags:
 id: 909
 categories:
   - IT
+abbrlink: 56a5ea23
 date: 2007-01-22 09:33:31
 ---
 

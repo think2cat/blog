@@ -8,6 +8,7 @@ tags:
 id: 921
 categories:
   - IT
+abbrlink: 35b91cb2
 date: 2007-03-07 12:40:42
 ---
 

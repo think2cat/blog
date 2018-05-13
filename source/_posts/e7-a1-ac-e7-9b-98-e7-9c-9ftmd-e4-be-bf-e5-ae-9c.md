@@ -3,6 +3,7 @@ title: 硬盘真TMD便宜
 id: 854
 categories:
   - Life
+abbrlink: b036bfbb
 date: 2005-12-24 23:12:36
 tags:
 ---

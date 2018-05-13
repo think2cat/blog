@@ -1,3 +1,4 @@
+---
 title: Bower学习笔记
 tags:
   - bower
@@ -5,6 +6,7 @@ tags:
 id: 1825
 categories:
   - Web
+abbrlink: cf44a887
 date: 2017-08-21 15:17:19
 ---
 ![bower](/images/2017/08/bower.png)

@@ -1,7 +1,9 @@
+---
 title: 个人求职
 id: 816
 categories:
   - Life
+abbrlink: 410b1d2
 date: 2004-08-15 23:24:00
 tags:
 ---

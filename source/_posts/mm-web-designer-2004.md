@@ -1,3 +1,4 @@
+---
 title: MM Web Designer 2004
 tags:
   - Macromedia
@@ -5,6 +6,7 @@ tags:
 id: 810
 categories:
   - Life
+abbrlink: 1d2f711
 date: 2004-04-24 18:34:00
 ---
 ![](/images/2004/04/24_16_21591049823_12690.jpg)

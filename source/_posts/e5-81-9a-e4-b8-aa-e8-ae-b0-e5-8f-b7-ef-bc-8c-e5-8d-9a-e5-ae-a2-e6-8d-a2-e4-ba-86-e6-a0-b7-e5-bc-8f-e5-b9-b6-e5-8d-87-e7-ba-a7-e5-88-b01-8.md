@@ -6,6 +6,7 @@ tags:
 id: 998
 categories:
   - Life
+abbrlink: bc26559d
 date: 2008-01-17 20:52:02
 ---
 

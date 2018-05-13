@@ -5,6 +5,7 @@ tags:
 id: 843
 categories:
   - Web
+abbrlink: 3e398c50
 date: 2005-06-12 17:14:00
 ---
 

@@ -6,6 +6,7 @@ tags:
 id: 1000
 categories:
   - Life
+abbrlink: 7c9b3f9c
 date: 2008-01-21 16:55:53
 ---
 

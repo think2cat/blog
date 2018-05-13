@@ -1,9 +1,11 @@
+---
 title: Capture和Bubble，简明解读addEventListener的第三个参数
 tags:
   - javascript
 id: 1605
 categories:
   - Web
+abbrlink: aea23e72
 date: 2013-03-13 22:42:42
 ---
 **target.addEventListener(type, listener[, useCapture]);**

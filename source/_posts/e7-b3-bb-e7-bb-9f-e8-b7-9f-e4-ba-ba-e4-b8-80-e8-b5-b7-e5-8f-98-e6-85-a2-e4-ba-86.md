@@ -1,7 +1,9 @@
+---
 title: 系统跟人一起变慢了
 id: 792
 categories:
   - Life
+abbrlink: e8a2cf58
 date: 2003-12-13 03:26:00
 tags:
 ---

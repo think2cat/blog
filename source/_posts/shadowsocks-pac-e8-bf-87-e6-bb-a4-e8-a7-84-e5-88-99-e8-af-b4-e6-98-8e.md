@@ -1,3 +1,4 @@
+---
 title: ShadowSocks PAC过滤规则说明
 tags:
   - PAC
@@ -5,6 +6,7 @@ tags:
 id: 1855
 categories:
   - Web
+abbrlink: 7868958c
 date: 2017-12-07 14:48:48
 ---
 SS小飞机文件夹有个pac.txt，打开会发现是一个JS格式的文件，这就是自动代理配置文件

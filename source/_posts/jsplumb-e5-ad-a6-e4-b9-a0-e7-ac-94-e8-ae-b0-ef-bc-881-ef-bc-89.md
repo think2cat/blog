@@ -1,3 +1,4 @@
+---
 title: jsPlumb学习笔记（1）
 tags:
   - javascript
@@ -5,6 +6,7 @@ tags:
 id: 1867
 categories:
   - Web
+abbrlink: d3edd405
 date: 2018-01-02 17:13:29
 ---
 jsPlumb是一个DOM连线JS库，采用SVG绘制连线

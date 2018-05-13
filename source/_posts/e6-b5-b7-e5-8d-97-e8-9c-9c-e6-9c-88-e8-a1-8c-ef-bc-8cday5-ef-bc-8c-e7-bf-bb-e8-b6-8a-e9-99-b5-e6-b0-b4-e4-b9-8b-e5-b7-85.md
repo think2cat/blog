@@ -1,3 +1,4 @@
+---
 title: 海南蜜月行，Day5，翻越陵水之巅
 tags:
   - 万宁
@@ -11,6 +12,7 @@ tags:
 id: 1594
 categories:
   - Life
+abbrlink: fdd2d6f2
 date: 2012-11-15 19:57:55
 ---
 [![day5](/images/2013/03/day5.jpg)](/images/2013/03/day5.jpg)

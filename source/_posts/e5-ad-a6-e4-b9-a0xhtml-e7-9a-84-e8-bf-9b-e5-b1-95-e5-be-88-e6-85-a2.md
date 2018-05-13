@@ -6,6 +6,7 @@ tags:
 id: 820
 categories:
   - Web
+abbrlink: 9539b47d
 date: 2004-08-30 01:17:00
 ---
 

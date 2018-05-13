@@ -1,9 +1,11 @@
+---
 title: Romance-MOMO
 tags:
   - flash
 id: 791
 categories:
   - IT
+abbrlink: a8e3ccdc
 date: 2003-12-02 00:03:00
 ---
 ![Romance-MOMO](/images/2003/12/02_26_22322311087_12688.jpg) 

@@ -1,3 +1,4 @@
+---
 title: 2012庐山第一场雪
 tags:
   - 元旦
@@ -7,6 +8,7 @@ tags:
 id: 1448
 categories:
   - Life
+abbrlink: 4f35ac13
 date: 2012-01-04 23:45:45
 ---
 ![庐山](/images/2012/01/20120103121.jpg)

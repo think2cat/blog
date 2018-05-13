@@ -3,6 +3,7 @@ title: 自己动手，丰衣足食
 id: 852
 categories:
   - Life
+abbrlink: 3eed4380
 date: 2005-12-11 23:33:49
 tags:
 ---

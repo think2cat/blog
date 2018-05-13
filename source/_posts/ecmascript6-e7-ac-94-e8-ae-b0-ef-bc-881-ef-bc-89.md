@@ -1,3 +1,4 @@
+---
 title: ECMAScript6笔记（1）
 tags:
   - ES6
@@ -5,6 +6,7 @@ tags:
 id: 1732
 categories:
   - Web
+abbrlink: 1768cee0
 date: 2017-03-06 00:54:57
 ---
 [阮老师的《ECMAScript6入门》](http://es6.ruanyifeng.com/)

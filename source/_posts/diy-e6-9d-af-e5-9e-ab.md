@@ -5,6 +5,7 @@ tags:
 id: 895
 categories:
   - Life
+abbrlink: 1884eed5
 date: 2006-07-28 01:58:31
 ---
 

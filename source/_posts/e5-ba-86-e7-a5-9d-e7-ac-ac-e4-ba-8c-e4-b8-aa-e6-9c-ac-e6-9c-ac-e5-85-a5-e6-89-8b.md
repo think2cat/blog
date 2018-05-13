@@ -8,6 +8,7 @@ tags:
 id: 896
 categories:
   - Life
+abbrlink: 32644d6a
 date: 2006-08-20 23:56:56
 ---
 

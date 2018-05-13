@@ -5,6 +5,7 @@ tags:
 id: 862
 categories:
   - IT
+abbrlink: d5afdced
 date: 2006-02-09 23:35:56
 ---
 

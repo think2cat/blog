@@ -1,9 +1,11 @@
+---
 title: Flashforward 2004
 tags:
   - flash
 id: 808
 categories:
   - Flash
+abbrlink: '43513894'
 date: 2004-04-21 20:27:00
 ---
 ![Flashforward 2004](/images/2004/04/21_12734.jpg)

@@ -1,3 +1,4 @@
+---
 title: 《Flash ActionScript 2.0－RIA应用程序开发》台湾繁体版
 tags:
   - actionscript
@@ -6,6 +7,7 @@ tags:
 id: 828
 categories:
   - Flash
+abbrlink: 60f9ccc5
 date: 2004-09-26 02:04:00
 ---
 ![Flash ActionScript 2.0－RIA應用程序開發](/images/2004/09/26_12744.jpg)

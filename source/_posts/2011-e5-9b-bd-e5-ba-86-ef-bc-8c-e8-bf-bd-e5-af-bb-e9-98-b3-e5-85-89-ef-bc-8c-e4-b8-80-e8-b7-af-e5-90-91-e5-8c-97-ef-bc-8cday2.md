@@ -1,3 +1,4 @@
+---
 title: 2011国庆，追寻阳光，一路向北，Day2
 tags:
   - 东西湖
@@ -9,6 +10,7 @@ tags:
 id: 1294
 categories:
   - Life
+abbrlink: 64d11830
 date: 2011-10-13 17:31:55
 ---
 [![](/images/2011/11/IMG_5268.jpg "IMG_5268")](/images/2011/11/IMG_5268.jpg)

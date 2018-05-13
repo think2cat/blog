@@ -8,6 +8,7 @@ tags:
 id: 992
 categories:
   - Digital
+abbrlink: 8be8ebef
 date: 2007-12-06 16:01:20
 ---
 

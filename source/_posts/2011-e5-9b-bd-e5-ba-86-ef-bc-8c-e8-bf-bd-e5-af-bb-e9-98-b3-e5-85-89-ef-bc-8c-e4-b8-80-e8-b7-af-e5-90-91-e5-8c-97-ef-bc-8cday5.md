@@ -1,3 +1,4 @@
+---
 title: 2011国庆，追寻阳光，一路向北，Day5(end)
 tags:
   - 信阳
@@ -8,6 +9,7 @@ tags:
 id: 1385
 categories:
   - Life
+abbrlink: 9e5242e6
 date: 2011-10-15 21:43:04
 ---
 [![信阳站](/images/2012/03/DSCN3234.jpg "DSCN3234")](/images/2012/03/DSCN3234.jpg)

@@ -1,9 +1,11 @@
+---
 title: BlueBlog快好了
 tags:
   - blog
 id: 795
 categories:
   - Life
+abbrlink: 7c5a34cc
 date: 2003-12-27 01:28:00
 ---
 嘻嘻,不过还有很多地方做得不好,想公开又怕漏洞太多我自己遭到攻击,可又想让更多人参与制作,看着Dlog一天天的壮大真是,偶的BlueBlog几时才有人用呀,呵呵,路真长

@@ -1,9 +1,11 @@
+---
 title: NVIDIA发布GeForce FX Go5700
 tags:
   - NVIDIA
 id: 788
 categories:
   - IT
+abbrlink: '3e401322'
 date: 2003-11-29 19:57:00
 ---
 ![GeForce FX Go5700](/images/2003/11/29_12729.jpg)

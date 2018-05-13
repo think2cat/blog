@@ -6,6 +6,7 @@ tags:
 id: 1008
 categories:
   - Digital
+abbrlink: 7c017e0e
 date: 2008-03-06 10:55:16
 ---
 

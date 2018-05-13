@@ -1,3 +1,4 @@
+---
 title: 修正BlueBlog一些问题
 tags:
   - blog
@@ -5,6 +6,7 @@ tags:
 id: 798
 categories:
   - Life
+abbrlink: 878da584
 date: 2004-01-02 01:54:00
 ---
 ** 修正: ** 

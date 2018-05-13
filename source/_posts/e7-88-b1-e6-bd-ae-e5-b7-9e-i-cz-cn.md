@@ -7,6 +7,7 @@ tags:
 id: 911
 categories:
   - IT
+abbrlink: dad92421
 date: 2007-01-24 01:13:23
 ---
 

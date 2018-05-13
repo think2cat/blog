@@ -3,6 +3,7 @@ title: 关机！
 id: 830
 categories:
   - Life
+abbrlink: 4abb5766
 date: 2004-10-07 01:52:00
 tags:
 ---

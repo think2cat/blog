@@ -1,3 +1,4 @@
+---
 title: Essential ActionScript 2.0
 tags:
   - flash
@@ -5,6 +6,7 @@ tags:
 id: 811
 categories:
   - IT
+abbrlink: 35580f83
 date: 2004-04-24 22:07:00
 ---
 ![Essential ActionScript 2.0](/images/2004/04/24_12794.jpg)

@@ -13,6 +13,7 @@ tags:
 id: 1050
 categories:
   - Life
+abbrlink: ea4c7a60
 date: 2008-09-17 09:17:09
 ---
 

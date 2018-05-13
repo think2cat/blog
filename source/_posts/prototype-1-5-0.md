@@ -7,6 +7,7 @@ tags:
 id: 912
 categories:
   - Web
+abbrlink: 9daab76b
 date: 2007-01-24 23:27:53
 ---
 

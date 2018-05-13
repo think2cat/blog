@@ -7,6 +7,7 @@ tags:
 id: 979
 categories:
   - Life
+abbrlink: 4698f709
 date: 2007-10-27 17:07:41
 ---
 

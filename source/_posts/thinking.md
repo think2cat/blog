@@ -5,6 +5,7 @@ tags:
 id: 809
 categories:
   - IT
+abbrlink: 97caf1aa
 date: 2004-04-22 21:59:00
 ---
 

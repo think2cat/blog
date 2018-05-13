@@ -6,6 +6,7 @@ tags:
 id: 941
 categories:
   - IT
+abbrlink: e6fde8ab
 date: 2007-06-02 16:14:53
 ---
 

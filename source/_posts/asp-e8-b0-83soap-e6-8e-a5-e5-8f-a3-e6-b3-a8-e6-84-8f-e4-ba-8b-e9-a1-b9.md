@@ -8,6 +8,7 @@ tags:
 id: 1002
 categories:
   - Web
+abbrlink: a60b2e49
 date: 2008-01-25 12:25:48
 ---
 

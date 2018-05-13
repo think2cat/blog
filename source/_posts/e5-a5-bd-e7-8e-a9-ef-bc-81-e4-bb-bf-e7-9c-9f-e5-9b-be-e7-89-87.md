@@ -1,7 +1,9 @@
+---
 title: 好玩！仿真图片
 id: 827
 categories:
   - IT
+abbrlink: e23a414d
 date: 2004-09-24 13:51:00
 tags:
 ---

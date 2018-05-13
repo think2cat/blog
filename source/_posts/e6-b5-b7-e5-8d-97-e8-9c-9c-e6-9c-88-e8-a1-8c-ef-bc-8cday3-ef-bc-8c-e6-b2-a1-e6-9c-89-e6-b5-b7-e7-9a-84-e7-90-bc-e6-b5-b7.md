@@ -1,3 +1,4 @@
+---
 title: 海南蜜月行，Day3，没有海的琼海
 tags:
   - 国庆
@@ -11,6 +12,7 @@ tags:
 id: 1556
 categories:
   - Life
+abbrlink: dde62480
 date: 2012-11-13 22:34:22
 ---
 [![day3](/images/2013/01/day3.jpg)](/images/2013/01/day3.jpg)

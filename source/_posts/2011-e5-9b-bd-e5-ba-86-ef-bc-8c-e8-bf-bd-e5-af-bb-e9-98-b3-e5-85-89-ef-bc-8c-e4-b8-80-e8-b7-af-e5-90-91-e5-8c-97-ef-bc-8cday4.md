@@ -1,3 +1,4 @@
+---
 title: 2011国庆，追寻阳光，一路向北，Day4
 tags:
   - 信阳
@@ -8,6 +9,7 @@ tags:
 id: 1368
 categories:
   - Life
+abbrlink: 8db2bd05
 date: 2011-10-14 22:17:11
 ---
 10月5日，Day 4

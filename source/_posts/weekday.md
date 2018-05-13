@@ -1,3 +1,4 @@
+---
 title: Weekday()
 tags:
   - asp
@@ -5,6 +6,7 @@ tags:
 id: 821
 categories:
   - Web
+abbrlink: 786b2ee7
 date: 2004-09-03 01:57:00
 ---
 今晚在重新写月历代码，没有了表格的&lt;TR&gt;&lt;TD&gt;似乎变简单了，反正调整好宽度，然后一直response.write就行了，会自动换行，嘿嘿

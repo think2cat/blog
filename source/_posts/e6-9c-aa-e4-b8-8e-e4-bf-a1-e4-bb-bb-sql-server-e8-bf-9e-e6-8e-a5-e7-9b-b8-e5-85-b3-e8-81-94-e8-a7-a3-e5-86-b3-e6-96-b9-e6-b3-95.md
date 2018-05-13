@@ -3,6 +3,7 @@ title: '[未与信任 SQL Server 连接相关联]解决方法'
 id: 845
 categories:
   - IT
+abbrlink: 9bdb9439
 date: 2005-07-28 00:08:00
 tags:
 ---

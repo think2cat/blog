@@ -1,9 +1,11 @@
+---
 title: Adobe公司以34亿美元收购Macromedia!
 tags:
   - Macromedia
 id: 838
 categories:
   - IT
+abbrlink: 3059015a
 date: 2005-04-19 10:48:00
 ---
 之前传言微软要收购MM,没想到突然被ADOBE收购了

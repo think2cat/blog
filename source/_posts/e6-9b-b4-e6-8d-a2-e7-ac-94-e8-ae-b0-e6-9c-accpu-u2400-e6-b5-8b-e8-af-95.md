@@ -11,6 +11,7 @@ tags:
 id: 943
 categories:
   - Digital
+abbrlink: 7b92a8ff
 date: 2007-06-16 08:56:41
 ---
 

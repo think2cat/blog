@@ -9,6 +9,7 @@ tags:
 id: 1043
 categories:
   - Life
+abbrlink: ad90a296
 date: 2008-08-08 17:26:40
 ---
 

@@ -1,3 +1,4 @@
+---
 title: 我为什么骑车上班，你为什么不？
 tags:
   - 单车
@@ -5,6 +6,7 @@ tags:
 id: 1673
 categories:
   - Life
+abbrlink: 3f917936
 date: 2015-05-03 15:37:06
 ---
 ![](/images/2015/06/111.jpg)

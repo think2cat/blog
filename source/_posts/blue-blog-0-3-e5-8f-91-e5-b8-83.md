@@ -1,9 +1,11 @@
+---
 title: Blue Blog 0.3 发布
 tags:
   - blog
 id: 817
 categories:
   - Web
+abbrlink: 90b85a16
 date: 2004-08-27 19:16:00
 ---
 ### Blue Blog Readme

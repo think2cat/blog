@@ -1,3 +1,4 @@
+---
 title: 让DIV不换行
 tags:
   - css
@@ -5,6 +6,7 @@ tags:
 id: 824
 categories:
   - Web
+abbrlink: 3e66892c
 date: 2004-09-11 02:47:00
 ---
 ### 一，单个DIV：

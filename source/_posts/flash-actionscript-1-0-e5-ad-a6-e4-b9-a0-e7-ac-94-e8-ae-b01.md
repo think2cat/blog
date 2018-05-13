@@ -1,3 +1,4 @@
+---
 title: Flash ActionScript 1.0 学习笔记(1)
 tags:
   - actionscript
@@ -5,6 +6,7 @@ tags:
 id: 839
 categories:
   - Flash
+abbrlink: fd592b6f
 date: 2005-04-29 22:35:00
 ---
 ![闪客实战](/images/2005/04/29_12750.jpg)

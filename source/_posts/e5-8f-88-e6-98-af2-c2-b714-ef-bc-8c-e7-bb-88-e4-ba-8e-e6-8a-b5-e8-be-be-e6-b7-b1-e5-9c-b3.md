@@ -3,6 +3,7 @@ title: 又是2·14，终于抵达深圳
 id: 863
 categories:
   - Life
+abbrlink: c5c718a6
 date: 2006-02-15 09:02:08
 tags:
 ---

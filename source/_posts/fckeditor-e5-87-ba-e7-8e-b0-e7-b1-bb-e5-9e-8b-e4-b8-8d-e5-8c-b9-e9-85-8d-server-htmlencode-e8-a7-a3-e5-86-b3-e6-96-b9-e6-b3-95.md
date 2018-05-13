@@ -7,6 +7,7 @@ tags:
 id: 940
 categories:
   - IT
+abbrlink: f1a2a654
 date: 2007-05-25 15:18:29
 ---
 

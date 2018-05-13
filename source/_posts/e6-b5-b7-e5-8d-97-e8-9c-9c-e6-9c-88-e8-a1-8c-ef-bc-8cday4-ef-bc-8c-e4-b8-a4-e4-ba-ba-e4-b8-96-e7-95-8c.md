@@ -1,3 +1,4 @@
+---
 title: 海南蜜月行，Day4，两人世界
 tags:
   - 万宁
@@ -10,6 +11,7 @@ tags:
 id: 1575
 categories:
   - Life
+abbrlink: d75db985
 date: 2012-11-14 18:33:55
 ---
 [![day4](/images/2013/02/day4.jpg)](/images/2013/02/day4.jpg)

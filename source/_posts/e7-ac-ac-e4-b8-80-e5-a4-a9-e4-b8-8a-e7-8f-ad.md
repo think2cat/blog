@@ -1,7 +1,9 @@
+---
 title: 第一天上班
 id: 826
 categories:
   - Life
+abbrlink: fe3bac7e
 date: 2004-09-22 23:51:00
 tags:
 ---

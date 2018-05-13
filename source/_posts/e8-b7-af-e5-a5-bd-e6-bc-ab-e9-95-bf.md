@@ -3,6 +3,7 @@ title: 路...好漫长...
 id: 784
 categories:
   - Life
+abbrlink: 5b8ce378
 date: 2003-10-18 14:48:00
 tags:
 ---

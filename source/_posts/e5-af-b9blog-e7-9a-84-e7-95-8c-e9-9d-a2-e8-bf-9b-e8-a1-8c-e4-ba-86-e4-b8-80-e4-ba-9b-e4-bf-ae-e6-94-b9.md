@@ -1,3 +1,4 @@
+---
 title: 对Blog的界面进行了一些修改
 tags:
   - blog
@@ -5,6 +6,7 @@ tags:
 id: 780
 categories:
   - Life
+abbrlink: c6843e45
 date: 2003-10-08 01:54:00
 ---
 对Blog的界面进行了一些修改

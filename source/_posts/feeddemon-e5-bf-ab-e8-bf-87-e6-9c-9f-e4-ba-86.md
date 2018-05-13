@@ -1,9 +1,11 @@
+---
 title: FeedDemon快过期了
 tags:
   - 金子
 id: 796
 categories:
   - Life
+abbrlink: 8af8a22
 date: 2003-12-28 05:36:00
 ---
 刚刚打开FeedDemon提示将在明年过期,下载了新的,居然要注册

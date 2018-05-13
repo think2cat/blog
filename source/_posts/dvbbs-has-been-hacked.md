@@ -1,3 +1,4 @@
+---
 title: DVBBS has been HACKED!
 tags:
   - hack
@@ -5,6 +6,7 @@ tags:
 id: 812
 categories:
   - IT
+abbrlink: '84e00048'
 date: 2004-04-25 22:35:00
 ---
 今天上了几个动网论坛，都出错了，信息如下

@@ -1,3 +1,4 @@
+---
 title: jsPlumb学习笔记（2）
 tags:
   - javascript
@@ -5,6 +6,7 @@ tags:
 id: 1881
 categories:
   - Web
+abbrlink: c1587beb
 date: 2018-01-10 17:11:38
 ---
 完成元素拖动后，接着做连线，连线由几部分组成

@@ -6,6 +6,7 @@ tags:
 id: 851
 categories:
   - Life
+abbrlink: eb070bbf
 date: 2005-11-20 22:48:08
 ---
 

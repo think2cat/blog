@@ -5,6 +5,7 @@ tags:
 id: 902
 categories:
   - IT
+abbrlink: 208d647d
 date: 2006-11-03 01:03:43
 ---
 

@@ -1,3 +1,4 @@
+---
 title: 一起Google
 tags:
   - google
@@ -5,6 +6,7 @@ tags:
 id: 837
 categories:
   - Life
+abbrlink: 1a53b3e5
 date: 2005-04-02 22:38:00
 ---
 [![17google.com.cn](/images/2005/04/02_12749.png)](http://www.17google.com.cn/)

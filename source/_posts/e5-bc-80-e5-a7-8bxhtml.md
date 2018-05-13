@@ -1,7 +1,9 @@
+---
 title: 开始XHTML
 id: 819
 categories:
   - Life
+abbrlink: f5fab948
 date: 2004-08-29 01:24:00
 tags:
 ---

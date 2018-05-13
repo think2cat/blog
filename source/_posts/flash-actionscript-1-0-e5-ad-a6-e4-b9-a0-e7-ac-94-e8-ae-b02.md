@@ -1,3 +1,4 @@
+---
 title: Flash ActionScript 1.0 学习笔记(2)
 tags:
   - actionscript
@@ -5,6 +6,7 @@ tags:
 id: 841
 categories:
   - Flash
+abbrlink: d67478ac
 date: 2005-05-26 01:19:00
 ---
 19.鼠标双击拖动

@@ -1,3 +1,4 @@
+---
 title: 海南蜜月行，Day6，三亚！三亚！
 tags:
   - 国庆
@@ -9,6 +10,7 @@ tags:
 id: 1626
 categories:
   - Life
+abbrlink: a843a5b0
 date: 2012-11-21 23:29:27
 ---
 [![day6](/images/2013/03/day6.jpg)](/images/2013/03/day6.jpg)

@@ -1,3 +1,4 @@
+---
 title: 增加了RSS
 tags:
   - blog
@@ -6,6 +7,7 @@ tags:
 id: 786
 categories:
   - Web
+abbrlink: 3b3dd35d
 date: 2003-10-21 05:25:00
 ---
 晚上心情逐渐好起来...多天的乌云 -_- ....不过现在太阳出来啦.....
