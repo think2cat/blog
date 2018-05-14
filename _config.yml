@@ -83,7 +83,7 @@ lazyload:
   onlypost: false
   loadingImg: /images/loading.gif
 
-all_minifier: true
+all_minifier: false
 
 abbrlink:
   alg: crc32  #support crc16(default) and crc32
