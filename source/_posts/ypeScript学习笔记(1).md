@@ -1,8 +1,11 @@
 title: TypeScript学习笔记（1）
 author: 猫大叔
 abbrlink: 1f5ada0a
-date: 2018-05-14 11:44:36
 tags:
+  - typescript
+categories:
+  - Web
+date: 2018-05-14 11:44:00
 ---
 [《TypeScript入门教程》](https://github.com/xcatliu/typescript-tutorial)学习笔记
 
@@ -28,7 +31,7 @@ tsc hello.ts
 ```ts
 let isCat: boolean = true;
 ```
-
+<!--more-->
 * 数值
 ```ts
 let catNum: number = 9;
