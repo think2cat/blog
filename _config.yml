@@ -83,7 +83,7 @@ lazyload:
   onlypost: false
   loadingImg: /images/loading.gif
 
-all_minifier: false
+all_minifier: true
 
 
 abbrlink:

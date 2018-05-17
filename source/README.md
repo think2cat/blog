@@ -10,7 +10,7 @@
 ---
 
 ## :pill:To-Do: 
-- [ ] wordpress到markdown转换(50% complete)
+- [ ] wordpress到markdown转换(55% complete)
 - [ ] add about page
 - [ ] 页面美化
 - [x] add search
