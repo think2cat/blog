@@ -6,7 +6,7 @@ tags:
   - 安陆
   - 广水
   - 旅行
-  - 自行车
+  - 单车
 id: 1350
 categories:
   - Life

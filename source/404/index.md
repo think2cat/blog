@@ -62,5 +62,7 @@ permalink: /404
 </style>
 <script>
 	let dom = document.getElementsByClassName("post-body");
-	dom.innerText = location.href;
+	if(dom){
+		dom[0].innerText = location.href;
+	}	
 </script>

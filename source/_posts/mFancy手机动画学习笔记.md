@@ -2,7 +2,7 @@
 title: mFancy手机动画学习笔记
 tags:
   - mFancy
-  - 手机
+  - mobile
   - 笔记
 id: 868
 categories:

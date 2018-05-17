@@ -2,7 +2,7 @@
 title: 抱歉，手机如二奶，不外借！
 tags:
   - 多普达
-  - 手机
+  - mobile
 id: 931
 categories:
   - Life

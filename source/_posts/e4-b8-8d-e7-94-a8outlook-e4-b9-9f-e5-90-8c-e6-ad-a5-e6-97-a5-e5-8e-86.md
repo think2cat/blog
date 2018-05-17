@@ -5,7 +5,7 @@ tags:
   - mobile
   - 同步
   - 多普达
-  - 手机
+  - mobile
   - 日历
 id: 932
 categories:

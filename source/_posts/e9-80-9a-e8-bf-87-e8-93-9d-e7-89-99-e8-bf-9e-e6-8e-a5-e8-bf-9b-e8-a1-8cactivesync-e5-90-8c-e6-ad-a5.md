@@ -3,7 +3,7 @@ title: 通过蓝牙连接进行ActiveSync同步
 tags:
   - 同步
   - 多普达
-  - 手机
+  - mobile
   - 蓝牙
 id: 925
 categories:
