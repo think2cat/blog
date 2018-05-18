@@ -31,7 +31,7 @@ Firefox2时代已经过去，Firefox3时代已经到来，吼吼
 8.  Easy DragToGo
     超级拖拽，Super DragAndGo代替品，但更灵活
 9.  Firebug
-    显示网页错误，方便调试JS之类
+    显示网页错误，方便调试JS之类<!--more-->
 10.  FireGestures
     鼠标手势控制，All-in-One Gestures的代替品，更stronger！
 11.  Foxmark Bookmark Synchronizer
