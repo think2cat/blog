@@ -80,10 +80,10 @@ search:
   
 lazyload:
   enable: true 
-  onlypost: false
+  onlypost: true
   loadingImg: /images/loading.gif
 
-all_minifier: true
+all_minifier: false
 
 
 abbrlink:
