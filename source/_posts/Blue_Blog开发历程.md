@@ -15,19 +15,17 @@ date: 2006-03-20 23:41:03
 
 当时只是几个简单的页面，自己可以发发日记，如此而已。
 
-&nbsp;
-
 ![](/images/2006/03/20_2006-3-321254079_12720.gif)
 
 03年12月，把Blog跟论坛数据库整合一起，所有论坛注册用户均可发表日志。上面是当时的Banner。
+<!--more-->
 
-&nbsp;
 
 ![](/images/2006/03/20_2006-3-321112864_12721.gif)
 
 04年10月，开始学习网页标准，并应用到Blog中，CSS是通过W3C验证了，网页由于某些页面用了不符合XHTML的属性，没通过
 
-&nbsp;
+
 
 05年12月，开始改版，开发真正支持多用户Blog
 
@@ -42,29 +40,29 @@ oBlog to Leadbbs 3.1 Access changeTo MSSQL
 
 conn.asp 第10行
 
-&nbsp;Const is_sqldata=0
+Const is_sqldata=0
 
-&nbsp;改为
+改为
 
-&nbsp;Const is_sqldata=1
+Const is_sqldata=1
 
-&nbsp;在29行，自行配置数据库的连接参数
+在29行，自行配置数据库的连接参数
 
 oBlogConn.asp 第4行
 
-&nbsp;Const is_sqldata=0
+Const is_sqldata=0
 
-&nbsp;改为
+改为
 
-&nbsp;Const is_sqldata=1
+Const is_sqldata=1
 
-&nbsp;同样在下面配置连接参数
+同样在下面配置连接参数
 
 inc/class_blog.asp 第673行
 
-&nbsp;logdate = c_year &amp; &quot;-&quot; &amp; c_month
+logdate = c_year &amp; &quot;-&quot; &amp; c_month
 
-&nbsp;改为
+改为
 
-&nbsp;logdate = c_year &amp; &quot;-&quot; &amp; c_month &amp; &quot;-&quot; &amp; c_day
+logdate = c_year &amp; &quot;-&quot; &amp; c_month &amp; &quot;-&quot; &amp; c_day
 </div>

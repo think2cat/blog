@@ -69,7 +69,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/think2cat/blog.git
+  repo: https://github.com/think2cat/think2cat.github.io.git
   branch: master
   
 search:
@@ -79,11 +79,11 @@ search:
   limit: 10000
   
 lazyload:
-  enable: true 
+  enable: false 
   onlypost: true
   loadingImg: /images/loading.gif
 
-all_minifier: false
+all_minifier: true
 
 
 abbrlink:

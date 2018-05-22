@@ -34,7 +34,7 @@ fo.addVariable("isCycle", "false");
 fo.addVariable("wideMode", "normal");
 fo.addVariable("defaultRate", "low");
 fo.addVariable("isAutoPlay", "true");
-writePlayer(fo,"myFlash");`</pre>
+writePlayer(fo,"myFlash");
 ```
 ** createPlayer() ** 函数在 ** film_standard2.js ** 文件，找到swf播放器地址 ** http://player.cntv.cn/standard/cntvplayer.swf ** ，下载下来用 Action Script Viewer 6 打开
 <!--more-->

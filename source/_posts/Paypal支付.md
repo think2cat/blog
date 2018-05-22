@@ -5,7 +5,6 @@ tags:
   - soap
   - wsdl
   - xml
-  - 接口
   - 网银
 id: 1025
 categories:
