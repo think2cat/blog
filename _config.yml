@@ -71,6 +71,7 @@ deploy:
   type: git
   repo: https://github.com/think2cat/think2cat.github.io.git
   branch: master
+  message: :spider:补齐vbs代码过长转换被截断
   
 search:
   path: search.xml
@@ -95,3 +96,12 @@ sitemap:
 
 baidusitemap:
     path: baidusitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '

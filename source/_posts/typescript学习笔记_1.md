@@ -1,20 +1,21 @@
-title: TypeScript学习笔记（1）
+title: TypeScript学习笔记(1)
 author: 猫大叔
 abbrlink: 1f5ada0a
 tags:
   - typescript
+  - javascript
 categories:
   - Web
 date: 2018-05-14 11:44:00
 ---
-[《TypeScript入门教程》](https://github.com/xcatliu/typescript-tutorial)学习笔记
+[《TypeScript入门教程》](https://github.com/xcatliu/typescript-tutorial)
 
 
 ## TypeScript是什么
 
 是JavaScript的超集
 安装nodejs后执行
-```cmd
+```sh
 npm i -g typescript
 ```
 TypeScript是后缀名为ts的文本文件，编译ts命令为

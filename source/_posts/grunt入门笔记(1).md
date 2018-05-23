@@ -22,7 +22,7 @@ npm install -g grunt-cli
 #### 2. 初始化package.json
 
 package.json是node.js项目描述文件，在项目根目录下执行
-```cmd
+```sh
 npm init
 ```
 <!--more-->
@@ -53,7 +53,7 @@ npm init
 ```
 
 #### 3. 安装grunt和常用插件
-```cmd
+```sh
 npm install grunt --save-dev
 ```
 安装后package.json多出一个字段
@@ -139,6 +139,6 @@ grunt.registerTask('default', ['uglify']);
 grunt.registerTask('lint', ['jshint', 'csslint', 'bootlint']);
 ```
 执行时用命令
-```cmd
+```sh
 grunt lint
 ```

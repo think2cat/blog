@@ -28,43 +28,43 @@ npm install -g bower
 #### 4.  如何使用
 
 * 初始化bower.json
-```cmd
+```sh
 bower init
 ```
 * 安装bower本身支持的包，支持列表见 https://bower.io/search/
-```cmd
+```sh
 bower install jQuery --save-dev
 ```
 * 安装github上的包，则可用短连接形式安装
-```cmd
+```sh
 bower install jQuery/jQuery
 ```
 * 安装其它网上资源，则直接跟上URL
-```cmd
+```sh
 bower install https://github.com/jquery/jquery
 ```
 * 安装特定版本库
-```cmd
+```sh
 bower install bootstrap#3.3.7
 ```
 * 卸载安装包
-```cmd
+```sh
 bower uninstall jquery
 ```
 * 搜索
-```cmd
+```sh
 bower search bootstrap
 ```
 * 查看库信息，包括各版本和依赖
-```cmd
+```sh
 bower info bootstrap
 ```
 * 查看本地库的依赖关系
-```cmd
+```sh
 bower list
 ```
 * 打开包的官网
-```cmd
+```sh
 bower home bootstrap
 ```
 #### 5. 配置文件.bowerrc
