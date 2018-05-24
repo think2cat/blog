@@ -1,5 +1,4 @@
 title: TypeScript学习笔记(1)
-author: 猫大叔
 abbrlink: 1f5ada0a
 tags:
   - typescript
@@ -29,51 +28,53 @@ tsc hello.ts
 ### 原始数据类型
 
 * 布尔值
-```ts
-let isCat: boolean = true;
-```
+    ```ts
+    let isCat: boolean = true;
+    ```
 <!--more-->
 * 数值
-```ts
-let catNum: number = 9;
-```
+    ```ts
+    let catNum: number = 9;
+    ```
 
 * 字符串
-```ts
-let catName: string = "Gavin";
-```
+    ```ts
+    let catName: string = "Gavin";
+    ```
+
 * null 和 undefined
-这2个类型比较特殊，值只能是null和undefined
-```ts
-let n: null = null;
-let u: undefined = undefined;
-```
-但是其它类型的值可以是null或undefined
-```ts
-let catAge: number = 10;
-catAge = undefined;
-```
+    这2个类型比较特殊，值只能是null和undefined
+    ```ts
+    let n: null = null;
+    let u: undefined = undefined;
+    ```
+    但是其它类型的值可以是null或undefined
+    ```ts
+    let catAge: number = 10;
+    catAge = undefined;
+    ```
+
 * void
-JS是没有Void，但TS可以有，表示没有返回值
-```ts
-function sayHello(): void{
-    console.log("hello");
-}
-```
+    JS是没有Void，但TS可以有，表示没有返回值
+    ```ts
+    function sayHello(): void{
+        console.log("hello");
+    }
+    ```
 * any任意型
-JS没有严格的类型规定，实际使用中可以随意转换类型
-```js
-let myCat = "hello";
-myCat = 10;
-```
-这样在JS中并不会报错，因为JS会隐性类型转换，但TS严格定义了类型，使用过程是不允许改变类型的
-所以有了任意值类型
-```ts
-let myCat: any = "hello";
-myCat = 10;
-myCat.name = "Gavin";
-console.log(myCat);
-```
+    JS没有严格的类型规定，实际使用中可以随意转换类型
+    ```js
+    let myCat = "hello";
+    myCat = 10;
+    ```
+    这样在JS中并不会报错，因为JS会隐性类型转换，但TS严格定义了类型，使用过程是不允许改变类型的
+    所以有了任意值类型
+    ```ts
+    let myCat: any = "hello";
+    myCat = 10;
+    myCat.name = "Gavin";
+    console.log(myCat);
+    ```
 
 ### 类型推论
 
