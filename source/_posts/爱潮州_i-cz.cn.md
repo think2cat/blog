@@ -2,8 +2,6 @@
 title: 爱潮州 i-cz.cn
 tags:
   - asp
-  - 爱潮州
-  - 网站
 id: 911
 categories:
   - IT
