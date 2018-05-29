@@ -63,6 +63,6 @@ permalink: /404
 <script>
 	let dom = document.getElementsByClassName("post-body");
 	if(dom){
-		dom[0].innerText = location.href;
+		dom[0].innerText = "这里想加入相关文章搜索<br>" + location.href;
 	}	
 </script>
