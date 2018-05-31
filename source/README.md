@@ -1,6 +1,6 @@
 ## 猫大叔个人博客
 
-### [21ido.com](https://21ido.com)
+### [21ido.com](http://21ido.com)
 
 :smiley_cat: :smile_cat: :pouting_cat:
 :heart_eyes_cat: :kissing_cat::smirk_cat:
@@ -10,7 +10,7 @@
 ---
 
 ## :pill:To-Do: 
-- [ ] wordpress到markdown转换(60% complete)
+- [ ] wordpress到markdown转换(75% complete)
 - [ ] add about page
 - [ ] 页面美化
 - [ ] 404页面
