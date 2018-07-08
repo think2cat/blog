@@ -2,8 +2,6 @@
 title: NetBeans 6 M8已放出
 tags:
   - eclipse
-  - ide
-  - IDEA
   - java
   - netbeans
   - ruby

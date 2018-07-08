@@ -1,11 +1,9 @@
 ---
 title: SUN网站被放木马？
 tags:
-  - ide
   - java
   - netbeans
   - sun
-  - 病毒
 id: 948
 categories:
   - IT
