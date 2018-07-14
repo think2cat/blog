@@ -60,9 +60,9 @@ permalink: /404
 	padding: 0;
 	}
 </style>
-<script>
-	let dom = document.getElementsByClassName("post-body");
-	if(dom){
-		dom[0].innerText = "这里想加入相关文章搜索<br>" + location.href;
-	}	
-</script>
+<script type="text/plain" src="http://www.qq.com/404/search_children.js"
+          charset="utf-8" homePageUrl="/"
+          homePageName="返回主页">
+  </script>
+<script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
+<script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>

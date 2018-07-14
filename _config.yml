@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://21ido.com
+url: http://21ido.com
 root: /
 permalink: :year/:month/:abbrlink/
 permalink_defaults:
@@ -71,16 +71,16 @@ deploy:
   type: git
   repo: https://github.com/think2cat/think2cat.github.io.git
   branch: master
-  message: :spider:补齐vbs代码过长转换被截断
-  
+  message:
+
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
-  
+
 lazyload:
-  enable: false 
+  enable: false
   onlypost: true
   loadingImg: /images/loading.gif
 
@@ -89,8 +89,8 @@ all_minifier: true
 
 abbrlink:
   alg: crc32  #support crc16(default) and crc32
-  rep: hex    #support dec(default) and hex    
-  
+  rep: hex    #support dec(default) and hex
+
 sitemap:
     path: sitemap.xml
 

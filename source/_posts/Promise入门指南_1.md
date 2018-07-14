@@ -1,12 +1,12 @@
 ---
-title: Promise入坑指南(1)
+title: Promise入门指南(1)
 categories:
   - Web
-abbrlink: ce2cf615
-date: 2018-06-04 14:48:28
-tags: 
+tags:
   - javascript
   - promise
+abbrlink: 57c1ef1d
+date: 2018-06-04 14:48:28
 ---
 ## Promise是异步编程的解决方案
 
@@ -33,6 +33,7 @@ var p = new Promise(function(resolve, reject){
     }, 2000);
 });
 ```
+<!--more-->
 创建一个Promise实例，其构造函数接收一个function作为参数，而function又有2个参数，分别为resolve和reject
 状态在pending变为fulfilled时执行 resolve，变为rejected则执行 reject，可以理解为成功和失败异常的回调
 这样看起来跟老式callback好像差不多啊
@@ -45,8 +46,8 @@ var p = new Promise(function(resolve, reject){
 如果只是简单的回调，使用起来确实差不多
 ```js
 function getList(){
-    ajax(url1, function(response){
-       //do something 
+    loadfile(url1, function(response){
+       //do something
     });
 }
 ```
@@ -54,12 +55,10 @@ function getList(){
 
 ```js
 function add(){
-    ajax(url1, function(response){
-        let url2 = response.url;
-        ajax(url2, function(response){
-            let url3 = response.url;
-            ajax(url3, function(response){
-                //do something 
+    ajax(url, function(url){
+        ajax(url, function(url){
+            ajax(url, function(response){
+                //do something
             });
         });
     });
@@ -71,7 +70,7 @@ function add(){
 let p = new Promise((resolve, reject) =>{
     //do something
     setTimeout(()=> {
-       resolve("url1"); 
+       resolve("url1");
     },2000);
 });
 p.then(res => {
@@ -84,12 +83,13 @@ p.then(res => {
 ```
 控制台先打印了Promise对象，2秒后打出cb1和cb2
 ```
-Promise
+[Promise]
 
 cb1 url1
 cb2 url2
 ```
 虽然是链式，看起来跟平时用的 ajax 异步回调有点不一样啊，链式写法多步执行后面会详细讲，这节先讲基本语法
+
 前面提到 then 可以传入2个function作为参数，分别代表 resolve 和 reject 的回调
 同时有个 catch 用于捕获异常，如果传入 then 只有 resolve 函数，在状态变为 rejected 时会调用传入 catch 的函数
 ```js
@@ -117,7 +117,7 @@ let p = new Promise((resolve, reject) =>{
     },2000);
 });
 p.then(res => {
-    console.log("cb1", aaaaaa);     // <- 打印不存在的变量
+    console.log("cb1", aaaaaa);     // <- 打印不存在的变量，报异常
     return "url2"
 }).catch(res => {
 	console.log("err",res);
