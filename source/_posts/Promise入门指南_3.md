@@ -5,7 +5,7 @@ categories:
 tags:
   - javascript
   - promise
-abbrlink: 57c1ef1d
+abbrlink: 65f78d9f
 date: 2018-07-15 18:44:55
 ---
 Promise是JavaScript异步编程解决方案，之一
