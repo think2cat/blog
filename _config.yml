@@ -80,11 +80,11 @@ search:
   limit: 10000
 
 lazyload:
-  enable: false
+  enable: true
   onlypost: true
   loadingImg: /images/loading.gif
 
-all_minifier: true
+all_minifier: false
 
 
 abbrlink:

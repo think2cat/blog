@@ -11,7 +11,9 @@
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: $black-light;
+  background-color: $black-light;
+  color: $whitesmoke;
+  padding: 0.2em 0.5em;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -29,9 +31,8 @@
     the-transition();
   }
 
-  &:hover::before {
-    visibility: visible;
-    transform: scaleX(1);
+  &:hover {
+    background-color: $grey-light;
   }
 
   .fa { font-size: 16px; }
