@@ -80,7 +80,7 @@ search:
   limit: 10000
 
 lazyload:
-  enable: true
+  enable: false
   onlypost: true
   loadingImg: /images/loading.gif
 

@@ -118,6 +118,7 @@
           {% endif %}
 
           {% if post.comments %}
+
             {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
@@ -309,7 +310,7 @@
       {% else %}
         {{ post.content }}
       {% endif  %}
-      {% if post.tags and post.tags.length and not is_index %}
+      {% if post.tags and post.tags.length %}
         <div class="post-tags">
           {% for tag in post.tags %}
             <a href="{{ url_for(tag.path) }}" rel="tag"># {{ tag.name }}</a>
@@ -317,9 +318,12 @@
         </div>
       {% endif %}
 
+      {% if not is_index %}
+        <h3>相关文章推荐</h3>
+        {{ popular_posts( {maxCount: 8, ulClass:'related-posts'} , post ) }}
+      {% endif %}
+
     </div>
-    <h3>相关文章推荐</h3>
-    {{ popular_posts( {maxCount: 8, ulClass:'related-posts'} , post ) }}
     {#####################}
     {### END POST BODY ###}
     {#####################}
@@ -340,6 +344,24 @@
       <div>
         {% include 'post-copyright.swig' with { post: post } %}
       </div>
+    {% endif %}
+
+    {% if not is_index %}
+      <div id="comment_container"></div>
+      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+      <script>
+        var gitment = new Gitment({
+          id: location.pathname,
+          owner: 'think2cat',
+          repo: 'think2cat.github.io',
+          oauth: {
+            client_id: '7d663847dc0ef6026d5a',
+            client_secret: 'c80320d11cbc8edfdaca268d976fc996b0f410d9'
+          }
+        });
+        gitment.render('comment_container');
+      </script>
     {% endif %}
 
     <footer class="post-footer">

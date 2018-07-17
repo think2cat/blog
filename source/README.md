@@ -9,11 +9,11 @@
 
 ---
 
-## :pill:To-Do: 
-- [ ] wordpress到markdown转换(75% complete)
-- [ ] add about page
-- [ ] 页面美化
-- [ ] 404页面
+## :pill:To-Do:
+- [ ] wordpress到markdown转换(80% complete)
+- [ ] add about page(50% complete)
+- [x] 页面美化
+- [x] 404页面
 - [x] add search
 - [ ] :octocat:etc...
 
@@ -27,3 +27,4 @@
 - 2018年5月，决心换HEXO+Github，省下虚拟主机的钱 :cat2:
 
 ![](/images/2018/05/P70405-134214.jpg)
+(摄于西藏芒康)
