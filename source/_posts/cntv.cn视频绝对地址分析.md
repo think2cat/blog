@@ -120,7 +120,8 @@ _local2 = (((((this._localtor.configVO.videoInfoURL + this._localtor.paramVO.fil
 ```
 实际是个播放列表，直接用迅雷就可以下载了
 
-事实上，cntv还有另一种json格式，比如[《火星没事》http://dianying.cntv.cn/lcomedy/C15956/classpage/video/20100128/100696.shtml](http://dianying.cntv.cn/lcomedy/C15956/classpage/video/20100128/100696.shtml)，JSON文本如下
+事实上，cntv还有另一种json格式，比如[《火星没事》](http://dianying.cntv.cn/lcomedy/C15956/classpage/video/20100128/100696.shtml)，JSON文本如下
+
 ```json
 {
     "videoid": "20100128100696",
@@ -157,9 +158,11 @@ _local2 = (((((this._localtor.configVO.videoInfoURL + this._localtor.paramVO.fil
     ]
 }
 ```
+
 rtmp 是adobe用于flash流媒体的播放协议，详情猛击这里 [http://www.51testing.com/?uid-8776-action-viewspace-itemid-81594](http://www.51testing.com/?uid-8776-action-viewspace-itemid-81594)
 
 关于rtmp的播放，我也不清楚，在反编译的AS中截取这么几段代码，剩下的请自己分析吧
+
 ```as
 override protected function initNetConnection():void{
 		this.nc = new NetConnection();
