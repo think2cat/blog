@@ -8,7 +8,7 @@ tags:
 abbrlink: 57c1ef1d
 date: 2018-06-04 14:48:28
 ---
-## Promise是异步编程的解决方案
+### Promise是异步编程的解决方案
 
 Promise有3种状态
 * pending
@@ -22,7 +22,7 @@ Promise有3种状态
 一旦变成fulfilled或rejected，则终止，不会再改变
 而在pending阶段，是不能取消，即一旦开始执行，就只能等状态改变，无法中途取消操作
 
-## 代码示例
+### 代码示例
 
 ```js
 var p = new Promise(function(resolve, reject){

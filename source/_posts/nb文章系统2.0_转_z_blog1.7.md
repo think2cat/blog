@@ -3,8 +3,6 @@ title: NB文章系统2.0 转 Z-Blog1.7
 tags:
   - asp
   - blog
-  - cms
-  - 转换
 id: 937
 categories:
   - Web
@@ -12,12 +10,13 @@ abbrlink: 4d80ea3f
 date: 2007-04-10 23:38:38
 ---
 
-[17google](http://www.17google.com.cn)是在05年制作的，现有文章1630篇，基本是人工整理进去的，后来因时间有限，一直搁着没更新，实在有点遗憾
+~~[17google](http://www.17google.com.cn)~~是在05年制作的，现有文章1630篇，基本是人工整理进去的，后来因时间有限，一直搁着没更新，实在有点遗憾
 
 今天写了个程序把数据库转为Z-Blog 1.7，以后应该会不定期更新下的
-
+<!--more-->
 NB文章系统2.0 MSSQL数据库&nbsp;&gt;&gt; Z-Blog 1.7 Access数据库
-<textarea rows="15" cols="80" name="code" class="XML"><%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+```vbs
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <%Response.Charset="UTF-8"
 Session.CodePage="65001"
 Response.buffer=False
@@ -37,15 +36,10 @@ server.ScriptTimeout = 999999
 	</style>
 </head>
 
-NB文章系统2.0 change to Z-Blog 1.7
+NB文章系统2.0 change to Z-Blog 1.7<br />
+作者：梦游的猫<br />
+http://www.21ido.com<br />
 
-作者：梦游的猫
-
-[梦游的猫博客](/blog/) http://www.cat-snow.com
-
-[梦游的猫网站](/) http://www.21ido.com
-
-<p>&nbsp;
 <div id = "title"></div>
 
 &nbsp;
@@ -336,4 +330,5 @@ function noHTML(str)
 	nohtml=str
 	set re=nothing
 end function
-%></textarea>
+%>
+```
