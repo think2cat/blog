@@ -5,7 +5,6 @@ tags:
   - 松拓
   - 装备
   - 跑步
-  - 运动
 id: 1049
 categories:
   - Digital

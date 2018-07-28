@@ -5,7 +5,6 @@ tags:
   - 测试
   - 装备
   - 轨迹仪
-  - 运动
 id: 1070
 categories:
   - Digital
