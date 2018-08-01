@@ -1,7 +1,5 @@
 ---
 title: DIY杯垫
-tags:
-  - diy
 id: 895
 categories:
   - Life

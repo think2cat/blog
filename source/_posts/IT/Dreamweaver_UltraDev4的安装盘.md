@@ -1,7 +1,5 @@
 ---
 title: Dreamweaver UltraDev 4的安装盘
-tags:
-  - Macromedia
 id: 862
 categories:
   - IT

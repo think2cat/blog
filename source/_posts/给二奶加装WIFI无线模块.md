@@ -2,7 +2,6 @@
 title: 给二奶加装WIFI无线模块
 tags:
 - Acer
-- diy
 - wifi
 - 二奶
 - 宏碁

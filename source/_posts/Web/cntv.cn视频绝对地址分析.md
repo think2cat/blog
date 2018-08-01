@@ -2,9 +2,7 @@
 title: cntv.cn视频绝对地址分析
 tags:
   - actionscript
-  - cctv
   - javascript
-  - json
   - spider
 id: 1116
 categories:
