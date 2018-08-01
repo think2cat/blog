@@ -1,7 +1,7 @@
 ---
 title: SDK1.4书到了
 tags:
-  - book
+  - 书
   - java
 id: 805
 categories:

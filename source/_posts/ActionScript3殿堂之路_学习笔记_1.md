@@ -3,7 +3,7 @@ title: 《ActionScript 3殿堂之路》学习笔记(1)
 tags:
   - actionscript
   - Adobe
-  - book
+  - 书
   - flash
   - flex
   - Macromedia
