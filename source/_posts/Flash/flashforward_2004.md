@@ -1,7 +1,7 @@
 ---
 title: Flashforward 2004
 tags:
-  - flash
+  - Flash
 id: 808
 categories:
   - Flash

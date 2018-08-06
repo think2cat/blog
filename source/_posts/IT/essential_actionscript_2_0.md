@@ -1,7 +1,7 @@
 ---
 title: Essential ActionScript 2.0
 tags:
-  - flash
+  - Flash
   - actionscript
 id: 811
 categories:

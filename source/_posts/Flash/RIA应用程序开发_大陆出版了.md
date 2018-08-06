@@ -1,0 +1,24 @@
+---
+title: 《RIA应用程序开发》大陆出版了！
+tags:
+  - actionscript
+  - Flash
+  - 书
+id: 836
+categories:
+  - Flash
+abbrlink: 4be010de
+date: 2005-04-02 22:07:00
+---
+刚刚收到通知邮件，《Flash MX 2004 ActionScript 2.0与RIA应用程序开发》大陆简体中文版已经出版，兴奋死了
+
+![RIA应用程序开发](/images/2005/04/02_12748.jpg) ![RIA应用程序开发](http://www.luar.com.hk/flashbook/upload/flashria_bookcover_cn_v2_2s.jpg)
+
+作者：颜金桫 KCLY小土豆工作室
+出版社：电子工业出版社
+ISBN号：7-121-00914-5
+定价：￥49.00元
+页码：538
+开本：16开 
+
+价格还可以，第二书店还没有，忧郁，《Essential ActionScript 2.0》台湾繁体已经出来很久了，大陆也没有，唉，等到出来差不多到8Ball了

@@ -2,7 +2,7 @@
 title: Flash ActionScript 1.0 学习笔记(2)
 tags:
   - actionscript
-  - flash
+  - Flash
 id: 841
 categories:
   - Flash

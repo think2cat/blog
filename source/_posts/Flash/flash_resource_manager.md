@@ -1,7 +1,7 @@
 ---
 title: Flash Resource Manager
 tags:
-  - flash
+  - Flash
 id: 806
 categories:
   - IT

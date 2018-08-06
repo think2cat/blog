@@ -3,7 +3,7 @@ title: 《ActionScript 3殿堂之路》学习笔记(1)
 tags:
   - actionscript
   - 书
-  - flash
+  - Flash
   - flex
   - xml
   - 笔记
