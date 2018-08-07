@@ -4,7 +4,6 @@ tags:
   - sql
   - xml
   - 笔记
-  - 读后感
 id: 1019
 categories:
   - IT

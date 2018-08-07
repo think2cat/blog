@@ -1,11 +1,8 @@
 ---
 title: QBQ的思考
 tags:
-  - QBQ
   - 工作
-  - 态度
   - 笔记
-  - 读后感
 id: 1006
 categories:
   - Life

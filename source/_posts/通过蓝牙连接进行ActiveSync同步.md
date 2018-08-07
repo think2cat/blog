@@ -1,7 +1,6 @@
 ---
 title: 通过蓝牙连接进行ActiveSync同步
 tags:
-  - 同步
   - 多普达
   - mobile
   - 蓝牙

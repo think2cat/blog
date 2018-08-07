@@ -4,7 +4,6 @@ tags:
   - cvs
   - svn
   - 笔记
-  - 管理
 id: 996
 categories:
   - IT

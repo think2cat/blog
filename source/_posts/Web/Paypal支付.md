@@ -444,7 +444,7 @@ Token、PayerID、PaymentAction、OrderTotal等各参数均为之前提交或获
 **Paypal重定向地址**
 
 * Live
-  https://www. Paypal.com/cgi-bin/webscr?cmd=_express-checkout&amp;token=
+  https://www.Paypal.com/cgi-bin/webscr?cmd=_express-checkout&amp;token=
 * SandBox
   https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&amp;token=value
 
