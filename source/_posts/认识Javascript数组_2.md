@@ -1,3 +1,4 @@
+---
 title: 认识Javascript数组(2)
 tags:
   - javascript
@@ -18,8 +19,7 @@ var b    = new Array();
 b[2.2]    = "XXXXX";
 alert(b[2.2]);  //-> XXXXX
 ```
-
-此时相当于```b["2.2"]  = "XXXXX"```
+此时相当于 `b["2.2"]  = "XXXXX"`
 
 ### 2.1 数组的循环
 ```js
@@ -47,9 +47,10 @@ for(var e in a){
 }
 ```
 
-此时e取到的是属性名，即 x、y、x，而要取得值，则采用 ** 数组名[属性] **，所以 a[e] 等同于`a["x"]、a["y"]、a["z"]`
+此时e取到的是属性名，即 x、y、x，而要取得值，则采用 ** 数组名[属性] **，所以 a[e] 等同于 `a["x"]、a["y"]、a["z"]`
 
 ### 2.2 数组常用函数
+
 #### concat
 
 在现有数组后面追加数组，并返回新数组，不影响现有数组
@@ -77,7 +78,7 @@ lert(a.join(","));     // -> a,b,c,d,e,f,g 相当于a.toString()
 alert(a.join(" x "));  // -> a x b x c x d x e x f x g
 ```
 
-这个很容易理解，但需要注意的是只转换一维数组里面，如果数组里面还有数组，将不是采用join指定的字符串接，而是采用默认的toString()，例如
+这个很容易理解，但需要注意的是只转换一维数组里面，如果数组里面还有数组，将不是采用join指定的字符串接，而是采用默认的 `toString()`，例如
 ```js
 var a =    ['a','b','c','d','e','f','g',[11,22,33]];
 alert(a.join(" * "));  // -> a * b * c * d * e * f * g *    11,22,33
@@ -186,7 +187,7 @@ alert(a.slice(-2,-6));       // -> 空
 a.slice(1,2)，从下标为1开始，到下标为2之间的数，注意并不包括下标为2的元素
 如果只有一个参数，则默认到数组最后
 -4是表示倒数第4个元素，所以返回倒数的四个元素
-最后一行，从倒数第2开始，因为是往后截取，所以显然取不到前面的元素，所以返回空数组，如果改成  a.slice(-6,-2) 则返回b,c,d,e
+最后一行，从倒数第2开始，因为是往后截取，所以显然取不到前面的元素，所以返回空数组，如果改成 `a.slice(-6,-2)` 则返回b,c,d,e
 
 #### splice
 
@@ -207,7 +208,7 @@ document.write(a.splice(1,2,"cc","aa","tt").join("#"));  // -> ee#7
 document.write(a);               // -> 2,cc,aa,tt,8,9
 ```
 
-注意该方法在IE下，第二个参数是必须的，不填则默认为0，例如a.splice(4)，在IE下则返回空，效果等同于a.splice(4,0)
+注意该方法在IE下，第二个参数是必须的，不填则默认为0，例如 `a.splice(4)`，在IE下则返回空，效果等同于 `a.splice(4,0)`
 
 #### toString
 
@@ -226,7 +227,7 @@ document.write(c.toString());       // -> function(s){ alert(s); }
 ```
 
 布尔值则返回true或false，对象则返回[object objectname]
-相比join()方法，join()只对一维数组进行替换，而toString()则把整个数组（不管一维还是多维）完全平面化
+相比 `join()` 方法，`join()` 只对一维数组进行替换，而toString()则把整个数组（不管一维还是多维）完全平面化
 同时该方法可用于10进制、2进制、8进制、16进制转换，例如
 ```js
 var a =    [5,6,7,8,9,"A","BB",100];
@@ -252,18 +253,18 @@ BB 的二进制是 BB ，八进制是 BB ，十六进制是 BB
 #### toLocaleString
 
 返回本地格式字符串，主要用在Date对象上
-```
+```js
 var a = new Date();
 document.write(a.toString());       // -> Sat Aug 8 17:28:36 UTC+0800    2009
 document.write(a.toLocaleString());     // -> 2009年8月8日 17:28:36
 document.write(a.toLocaleDateString());     // -> 2009年8月8日
 ```
 
-区别在于，toString()返回标准格式，toLocaleString()返回本地格式完整日期（在【控制面板】>>【区域和语言选项】，通过修改[时间]和[长日期]格式），toLocaleDateString()跟toLocaleString()一样，只是少了时间
+区别在于，`toString()` 返回标准格式，`toLocaleString()` 返回本地格式完整日期（在【控制面板】>>【区域和语言选项】，通过修改[时间]和[长日期]格式），`toLocaleDateString()` 跟 `toLocaleString()` 一样，只是少了时间
 
 #### valueOf
 
-根据不同对象返回不同原始值，用于输出的话跟toString()差不多，但是toString()是返回string类型，而valueOf()是返回原对象类型
+根据不同对象返回不同原始值，用于输出的话跟 `toString()` 差不多，但是 `toString()` 是返回string类型，而 `valueOf()` 是返回原对象类型
 ```js
 var a = [1,2,3,[4,5,6,[7,8,9]]];
 var b = new Date();
@@ -280,12 +281,11 @@ document.write(d.valueOf());       // -> function () {    alert("sunnycat"); }
 document.write(typeof(d.valueOf()));   // -> function
 ```
 
-数组也是对象，所以typeof  (a.valueOf())返回object，返回的依然是个多维数组
+数组也是对象，所以 `typeof(a.valueOf())` 返回object，返回的依然是个多维数组
 ```js
 var a = [1,2,3,[4,5,6,[7,8,9]]];
 var aa = a.valueOf();
 document.write(aa[3][3][1]); // -> 8
 ```
 
-Date对象返回的是距离1970年1月1日的毫秒数，
-**Math**和**Error**对象没有valueOf方法
+Date对象返回的是距离1970年1月1日的毫秒数，**Math**和**Error**对象没有valueOf方法

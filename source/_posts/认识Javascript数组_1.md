@@ -51,8 +51,9 @@ a 和 b 都是数组，只不过b用了隐性声明，创建了另一个实例�
 
 ### 1.2 多维数组
 
-其实Javascript是不支持多维数组的，在asp里面可以用 dim a(10,3)来定义多维数组，在Javascript里面，如果用 `var a = new Array(10,3)` 将报错
+其实Javascript是不支持多维数组的，在asp里面可以用 `dim a(10,3)` 来定义多维数组，在Javascript里面，如果用 `var a = new Array(10,3)` 将报错
 但是之前说过，数组里面可以包含对象，所以可以把数组里面的某个元素再声明为数组，例如
+
 ```js
 var a = new Array();
 a[0] = new Array();
