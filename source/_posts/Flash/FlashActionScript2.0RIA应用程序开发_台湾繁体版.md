@@ -3,7 +3,7 @@ title: 《Flash ActionScript 2.0－RIA应用程序开发》台湾繁体版
 tags:
   - actionscript
   - Flash
-  - 书
+  - Book
 id: 828
 categories:
   - Flash

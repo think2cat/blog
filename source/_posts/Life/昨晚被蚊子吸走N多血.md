@@ -1,0 +1,20 @@
+---
+title: 昨晚被蚊子吸走N多血
+id: 829
+categories:
+  - Life
+abbrlink: 636f6a19
+date: 2004-09-30 09:29:00
+tags:
+---
+平时也是看见几只蚊子，昨晚被吵醒了三次，光在蚊帐里面就打死十几只，只只吸血吸的肥肥的，靠，明明有蚊帐，不知怎么飞进去的，早上起来还发现有，又打死了两只，搞得蚊帐血淋淋的，明天要洗一下了。讨厌的蚊子！
+
+刚刚看到左上角的月历才发现明天是国庆，还以为是后天呐，还不知晚上有没车回家，哎呀我晕车啊，真是麻烦。
+
+刚刚才发现消失很久的V6DP回来了，WOW！
+
+![Apple Air](http://images.apple.com/airportexpress/images/indextop06072004.jpg)
+
+Apple的空中音乐，提供USB、Internet输入，支持Wi-FI(802.11b/802.11g)，128位WEP加密，支持MAC和Windows，售价$129！
+
+官方网站:http://www.apple.com/airportexpress/

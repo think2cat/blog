@@ -3,7 +3,7 @@ title: 《RIA应用程序开发》大陆出版了！
 tags:
   - actionscript
   - Flash
-  - 书
+  - Book
 id: 836
 categories:
   - Flash

@@ -15,18 +15,18 @@ date: 2018-01-17 17:43:52
 
 先看个例子
 ```html
- <div>
- 	<ul>
-     <li>AA <span>A1</span> <span>A2</span></li>
-     <li>BB <span>B1</span> <span>B2</span></li>
-     <li>CC <span>C1</span> <span>C2</span></li>
-   </ul>
-   <ul>
-     <li>DD <span>D1</span> <span>D2</span></li>
-     <li>EE <span>E1</span> <span>E2</span></li>
-     <li>FF <span>F1</span> <span>F2</span></li>
-   </ul>
- </div>
+<div>
+  <ul>
+    <li>AA <span>A1</span> <span>A2</span></li>
+    <li>BB <span>B1</span> <span>B2</span></li>
+    <li>CC <span>C1</span> <span>C2</span></li>
+  </ul>
+  <ul>
+    <li>DD <span>D1</span> <span>D2</span></li>
+    <li>EE <span>E1</span> <span>E2</span></li>
+    <li>FF <span>F1</span> <span>F2</span></li>
+  </ul>
+</div>
  ```
  <!-- more -->
 假设这个列表的LI和SPAN均需要加上click事件，常规做法是在每个DOM都绑定事件，比如
@@ -61,7 +61,7 @@ for(let i = 0; i < spanArr.length; i++){
 
 这时就需要事件委托，把事件绑定在父级元素
 
-浏览器的事件冒泡看这里，{% post_link capture-e5-92-8cbubble-ef-bc-8c-e7-ae-80-e6-98-8e-e8-a7-a3-e8-af-bbaddeventlistener-e7-9a-84-e7-ac-ac-e4-b8-89-e4-b8-aa-e5-8f-82-e6-95-b0 %}
+浏览器的事件冒泡看这里，{% post_link 'Capture_Bubble_addEventListener' %}
 
 因为LI和SPAN都在DIV里面，所以只需绑定DIV即可
 ```js
@@ -80,9 +80,9 @@ document.getElementsByTagName("div")[0].addEventListener("click",(evt)=>{
 
 为此jQuery从1.4.2新增了delegate函数，但到了1.7版本就换成 on函数，用法是一样的
 
-```$.on()``` 和 ```$.click()``` 最大的区别是执行语句之后，新增加的DOM元素，只要符合选择器，也会绑定on函数指定的事件，而click则不会
+`$.on()` 和 `$.click()` 最大的区别是执行语句之后，新增加的DOM元素，只要符合选择器，也会绑定on函数指定的事件，而click则不会
 
-on的语法，```$.on( events [, selector ] [, data ], handler )```
+on的语法，`$.on( events [, selector ] [, data ], handler )`
 
 选择器用于选择后代元素，所以事件的触发来自于后代元素，而非绑定on的元素
 
