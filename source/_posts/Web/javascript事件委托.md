@@ -61,7 +61,7 @@ for(let i = 0; i < spanArr.length; i++){
 
 这时就需要事件委托，把事件绑定在父级元素
 
-浏览器的事件冒泡看这里，{% post_link 'Capture_Bubble_addEventListener' %}
+浏览器的事件冒泡看这里，{% post_link 'Web/Capture_Bubble_addEventListener' %}
 
 因为LI和SPAN都在DIV里面，所以只需绑定DIV即可
 ```js

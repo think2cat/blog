@@ -11,7 +11,7 @@ abbrlink: e6f81019
 date: 2007-03-23 21:39:49
 ---
 
-很常见的一个效果，像本站的 {% post_link '上海之行的PP' %} 和 ~~[深圳欢乐谷](/blog/post/167.html)~~ 都是使用这种效果
+很常见的一个效果，像本站的 {% post_link 'Life/上海之行的PP' %} 和 ~~[深圳欢乐谷](/blog/post/167.html)~~ 都是使用这种效果
 
 Z-Blog 1.7 Laputa Build 70216
 
@@ -25,7 +25,7 @@ Z-Blog 1.7 Laputa Build 70216
   <script type="text/javascript" src="<#ZC_BLOG_HOST#>script/lightbox.js"></script>
   ```
 3. 在要使用lightbox效果的图片加链接，格式化如下 `<a href="/blog/upload/2007/2/200702211425424414.JPG" rel="lightbox">点这里</a>`
-4.  如果有多张图片，要使用套图效果，类似 {% post_link '上海之行的PP' %} 的 Next / Prev，代码如下
+4.  如果有多张图片，要使用套图效果，类似 {% post_link 'Life/上海之行的PP' %} 的 Next / Prev，代码如下
   ```html
   <a href="images/image-1.jpg" rel="lightbox[roadtrip]">image #1</a>
   <a href="images/image-2.jpg" rel="lightbox[roadtrip]">image #2</a>
