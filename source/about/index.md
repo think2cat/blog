@@ -42,9 +42,12 @@ date: 2018-05-04 15:06:04
 * 数据库 MSSQL(MCDBA + MCSE认证)
 
 # 近期学习计划
-[ ] Vue
-[ ] TypeScript
-[ ] Python
-[ ] LeetCode刷题
-[ ] Node.js
-[ ] React
+- [ ] ES6
+- [ ] JS设计模式
+- [ ] Webpack 
+- [ ] Vue
+- [ ] TypeScript
+- [ ] Python
+- [ ] LeetCode刷题
+- [ ] Node.js
+- [ ] React
