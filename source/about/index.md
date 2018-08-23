@@ -40,14 +40,16 @@ date: 2018-05-04 15:06:04
 * 前端 Javascript（最近特别钟情vuejs)
 * 后端 Nodejs/Java
 * 数据库 MSSQL(MCDBA + MCSE认证)
+* 爱好 单车/跑步/轮滑
 
 # 近期学习计划
-- [ ] ES6
-- [ ] JS设计模式
-- [ ] Webpack 
-- [ ] Vue
-- [ ] TypeScript
-- [ ] Python
-- [ ] LeetCode刷题
-- [ ] Node.js
-- [ ] React
+- ES6
+- JS设计模式
+- Webpack
+- Vue
+- TypeScript
+- Python
+- LeetCode刷题
+- Node.js
+- React
+
