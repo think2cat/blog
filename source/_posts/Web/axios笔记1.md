@@ -3,6 +3,7 @@ title: Axios笔记1
 tags:
   - axios
   - javascript
+  - http
 categories:
   - Web
 abbrlink: e16c0619
@@ -19,7 +20,7 @@ Axios 是基于 promise 的http库，可在nodejs服务端或客户端浏览器�
 3. 支持请求和响应拦截
 4. 支持JSON格式转换
 5. 支持取消请求
-
+<!--more-->
 ## 安装
 ```sh
 npm install axios
@@ -61,7 +62,7 @@ axios.get('/info',{
 ### post
 ```js
 axios.post('/info',{
-        id: 123, 
+        id: 123,
         name: 'Gavin'
     })
     .then(response => {
@@ -89,7 +90,7 @@ axios.request({
     url: '/info',
     method: 'post',
     data: {
-        id: 123, 
+        id: 123,
         name: 'Gavin'
     }
     }.then(response => {

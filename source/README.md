@@ -10,11 +10,12 @@
 ---
 
 ## :pill:To-Do:
-- [ ] wordpress到markdown转换(90% complete)
-- [x] add about page
+- [x] wordpress到markdown转换(99% complete)
+- [x] 个人简历
 - [x] 页面美化
 - [x] 404页面
-- [x] add search
+- [x] 搜索
+- [ ] 图片补全
 - [ ] :octocat:etc...
 
 
