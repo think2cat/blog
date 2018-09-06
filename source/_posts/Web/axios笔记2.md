@@ -1,5 +1,5 @@
 ---
-title: Axios笔记2
+title: Axios笔记(2)
 tags:
   - axios
   - javascript
@@ -32,8 +32,7 @@ list(query).then()
 配置参数较多，参照 [Axios官网](https://github.com/axios/axios)
 
 ## 拦截器
-axios支持拦截器，可以在请求和返回时进行拦截处理
-<!--more-->
+axios支持拦截器，可以在请求和返回时进行拦截处理<!--more-->
 ```js
 axios.interceptors.request.use(config => config, error => error);
 axios.interceptors.response.use(response => response, error => error);
@@ -79,7 +78,7 @@ reject 时返回error对象，可以从 error.response 获取http对象
 
 ## 取消请求
 调用定时器 `setTimeout()` 会返回一个整形token，然后用 `clearTimeout()` 传入返回的token即可清除定时器
-axios 的取消也是一样道理，只是不是请求时返回token，而是把token在请求时
+axios 的取消也是一样道理，只是不是在请求时返回token，而是把token附加到请求参数
 ```js
 const source = axios.CancelToken.source()
 console.log('cancelToken', source)
@@ -102,10 +101,3 @@ request({
 source.cancel('some request is cancel')
 ```
 此时 `catch` 会打印 `some request is cancel`
-
-
-
-
-
-
-

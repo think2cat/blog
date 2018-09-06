@@ -1,5 +1,5 @@
 ---
-title: Axios笔记1
+title: Axios笔记(1)
 tags:
   - axios
   - javascript
@@ -21,6 +21,7 @@ Axios 是基于 promise 的http库，可在nodejs服务端或客户端浏览器�
 4. 支持JSON格式转换
 5. 支持取消请求
 <!--more-->
+
 ## 安装
 ```sh
 npm install axios
@@ -130,6 +131,7 @@ head用法同get，但是只返回header信息，不会有response body
 1. 测试连接可用性
 2. 检验页面有没改动
 3. 藏在header的数据检验
+
 ```js
 axios.head("/info", { params: {"id": 123}})
     .then(
