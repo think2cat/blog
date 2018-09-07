@@ -15,9 +15,11 @@ date: 2017-05-15 00:14:47
 #### 1. 安装
 
 grunt依赖node.js，需要先安装node.js，官网[https://nodejs.org/](https://nodejs.org/)
-安装后敲node -v会打印版本号，则安装成功
+安装后敲 `node -v` 会打印版本号，则安装成功
 接着安装grunt， -g表示全局，不带则安装到当前目录
+```sh
 npm install -g grunt-cli
+```
 
 #### 2. 初始化package.json
 
@@ -62,7 +64,7 @@ npm install grunt --save-dev
     "grunt": "^1.0.1"
 }
 ```
-这里 ```devDependencies``` 表示开发环境所依赖的库，如果是发布后需要的库则用 --save，对应package.json中的 ```dependencies```属性，如果只是安装库而不改动package.json则无须加参数
+这里 `devDependencies` 表示开发环境所依赖的库，如果是发布后需要的库则用 --save，对应 package.json 中的 `dependencies`属性，如果只是安装库而不改动 package.json 则无须加参数
 
 grunt常用插件
 * 合并文件：[grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
@@ -93,7 +95,7 @@ grunt.initConfig({
     }
 });
 ```
-pkg从package.json读取配置，后面可以直接使用```<%= pkg.name %>``` 来引用常量
+pkg从package.json读取配置，后面可以直接使用 `<%= pkg.name %>` 来引用常量
 还有另一种常见配置
 ```js
 var config = {
