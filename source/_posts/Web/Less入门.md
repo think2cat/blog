@@ -8,12 +8,12 @@ categories:
 abbrlink: 8ba397ba
 date: 2016-11-08 20:16:05
 ---
-## LESS 是什么
+## 1) LESS 是什么
 首先，CSS是什么，CSS是层叠样式表，用于描述HTML和XML样式表现的语言
 
 Less 是一种动态的样式语言。Less扩展了CSS的动态行为，增加了变量（Variables）、混合书写模式（mixins）、操作（operations）和功能（functions）等等
 
-## 示例
+## 2) 示例
 ```css
 @bgColor: #fff;
 @mainPadding: 15px;
@@ -54,7 +54,7 @@ Less 是一种动态的样式语言。Less扩展了CSS的动态行为，增加�
 }
 ```
 
-## 安装
+## 3) 安装
 LESS基于Node.js开发，需要先安装Node.js
 命令行执行 `npm install less`
 ```cmd
@@ -72,14 +72,14 @@ C:\Users\gavin.guo>lessc -v
 lessc 2.7.1 (Less Compiler) [JavaScript]
 ```
 
-## 编译方式
+## 4) 编译方式
 1. 命令行 `lessc style.less > style.css`
 2. 第三方工具，如Koala
 3. IDE集成
 4. 此外还可以通过载入less.js运行库
   `<link href="study.less" rel="stylesheet/less" type="text/css" /><script src="less.min.js" type="text/javascript"></script>`
 
-## 基本语法
+## 5) 基本语法
 
 ### 变量 Variables
 在Less中的变量实际上就是一个“常量”，因为只能被定义一次
