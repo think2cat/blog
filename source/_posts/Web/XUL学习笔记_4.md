@@ -27,7 +27,7 @@ date: 2006-03-30 21:26:22
   xmlns:html="http://www.w3.org/1999/xhtml"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
  >
- ```
+```
 <!--more-->
 解释一下
 1. `<?xml version="1.0" encoding="GB2312"?>`
@@ -53,7 +53,7 @@ xmlns=http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul
 * `height="200"`			窗口高度
 * `sizemode="maximized | minimized| normal"`		窗口初始化模式，最大化、最小化和普通
 
-#### 4.2按钮 <button>
+#### 4.2按钮 `<button>`
 
 `<button id="button" label="Find" default="true"/>`
 
@@ -75,7 +75,7 @@ Description基本上跟label是相同的，比如上面2行代码显示效果是
 	Let's put in another sentence for good measure.
 </description>
 ```
-跟html一样，多个空格将被当成一个空格，回车和’\n’也是不起作用的，只有当文本宽度超过上级元素围的宽度了，才会换行，但是也可以用width属性来定义宽度，例如
+跟html一样，多个空格将被当成一个空格，回车和 `\n` 也是不起作用的，只有当文本宽度超过上级元素围的宽度了，才会换行，但是也可以用width属性来定义宽度，例如
 ```html
 <description style="max-width:20px;">
 	This is a multi-line description.
@@ -89,9 +89,9 @@ Description基本上跟label是相同的，比如上面2行代码显示效果是
 <button id=" DisplayName " label="MyName"/>
 ```
 
-#### 4.4图片<image>
+#### 4.4图片 `<image>`
 
-`<image src=”cat.png” width=”20” height=”26”/>`
+`<image src="cat.png" width="20" height="26"/>`
 
 Image标签跟html一样，不过这不是常用的作法。常用的作法是放在skin目录下，通过样式表来控制。
 例如：`<image id="cat"  />`

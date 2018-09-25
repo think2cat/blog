@@ -35,8 +35,8 @@ class YellowCat extends Cat{
 ```
 <!--more-->
 #### 箭头函数 =>
-i => i+1;
-等于ES5的 ```function(i){return i+1}```
+`i => i+1;`
+等于ES5的 `function(i){return i+1}`
 简洁的无法接受！跟ES5不同的是function中的this指向定义function时的对象，而不是运行时的所在对象
 比如ES5经常用的
 ```js
@@ -51,7 +51,7 @@ setTimeout( (str) => this.hello(str) , 1000)
 ```
 
 #### destructuring
-这是我见过最无聊的写法
+这是我见过最无法适应的写法，但确实简洁
 ```js
 var a = 123, b = 456;
 var c = {a,b};

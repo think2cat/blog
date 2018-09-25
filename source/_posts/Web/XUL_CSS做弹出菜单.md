@@ -17,11 +17,11 @@ date: 2006-04-04 23:06:49
 菜单我挑了一个代码少的，效果一样哈
 
 ```xml
-  <popup id=”emailAddressPopup” popupanchor=”bottomleft” onpopupshowing=”goUpdateCommand(‘cmd_createFilterFromPopup’);” class=”popMunu”>
-  <menuitem label=”&amp;SendMailTo.label;” accesskey=”&amp;SendMailTo.accesskey;” oncommand=”SendMailToNode(document.popupNode)”/>
-  <menuitem label=”&amp;CreateFilterFrom.label;” accesskey=”&amp;CreateFilterFrom.accesskey;” command=”cmd_createFilterFromPopup”/>
-  <menuitem label=”&amp;AddToAddressBook.label;” accesskey=”&amp;AddToAddressBook.accesskey;” oncommand=”AddNodeToAddressBook(document.popupNode)”/>
-  <menuitem label=”&amp;CopyEmailAddress.label;” accesskey=”&amp;CopyEmailAddress.accesskey;” oncommand=”CopyEmailAddress(document.popupNode)”/>
+  <popup id="emailAddressPopup" popupanchor="bottomleft" onpopupshowing="goUpdateCommand(‘cmd_createFilterFromPopup’);" class="popMunu">
+  <menuitem label="&amp;SendMailTo.label;" accesskey="&amp;SendMailTo.accesskey;" oncommand="SendMailToNode(document.popupNode)"/>
+  <menuitem label="&amp;CreateFilterFrom.label;" accesskey="&amp;CreateFilterFrom.accesskey;" command="cmd_createFilterFromPopup"/>
+  <menuitem label="&amp;AddToAddressBook.label;" accesskey="&amp;AddToAddressBook.accesskey;" oncommand="AddNodeToAddressBook(document.popupNode)"/>
+  <menuitem label="&amp;CopyEmailAddress.label;" accesskey="&amp;CopyEmailAddress.accesskey;" oncommand="CopyEmailAddress(document.popupNode)"/>
 </popup>
 ```
 

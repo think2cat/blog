@@ -17,7 +17,7 @@ var p = new Promise(function(resolve, reject){
     }, 2000);
 });
 ```
-前面提到的这种写法，实际不会这么直接把Promise赋值给p，因为大部分function调用需要传入参数，所以习惯在function里面new Promise示例并return
+前面提到的这种写法，实际不会这么直接把Promise赋值给p，因为大部分function调用需要传入参数，所以习惯在function里面 `new Promise` 示例并return
 ```js
 var getUrl = param => {
     return new Promise(resolve => {
@@ -38,8 +38,8 @@ var getUrl = Promise.resolve();
 getUrl.then(response => {
 });
 ```
-前面的resolv()中传什么东西，到了then中的 response 就是前面传入的东西
-如果为空，则 ```response = undefined```，如果是 function 则 ```response = function```
+前面的 `resolv()` 中传什么东西，到了 `then` 中的 `response` 就是前面传入的东西
+如果为空，则 `response = undefined`，如果是 function 则 `response = function`
 ```js
 var getUrl = Promise.resolve(() => {
 	console.log("hello");

@@ -62,3 +62,4 @@ Z-Blog 1.7 Laputa Build 70216
   ```html
   <textarea name="code" class="java" rows="15" cols="100">Java代码</textarea>
   <textarea name="code" class="vb:firstline[26]" rows="15" cols="100">VB代</textarea>
+  ```

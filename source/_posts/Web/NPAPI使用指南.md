@@ -56,7 +56,7 @@ var r = bboImusic.getChannelList(-1, 0, 50);
 try{
   var r = bboImusic.getChannelList(-1, 0, 50);
 }catch(e){
-  alert(“bboImusic.getChannelList() err:” + e);
+  alert(“bboImusic.getChannelList() err:" + e);
 }
 ```
 这样可以保证插件出错的情况下，不会导致JS出错

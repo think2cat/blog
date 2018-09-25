@@ -47,7 +47,7 @@ Mac OS X ~/Library/Mozilla/Firefox/Profiles/&lt;Profile name&gt;/ 或
 首先，我们需要在命令行方式下，定位到 Firefox 的安装目录，通过运行
 firefox -P
 启动 Firefox 的 Profile 管理器窗口，建立一个负责测试安装的 Profile。当然，也可以建立更多的 Profile。
-假设你建立了一个名为“test”的 Profile，想启用这个 Profile，你需要通过
+假设你建立了一个名为“test"的 Profile，想启用这个 Profile，你需要通过
 set MOZ_NO_REMOTE=1
 firefox -P test
 这两行命令来启用这个非默认启动状态的 Profile。为了方便测试，这两条命令可以写成一个 Shell 脚本或做成一个批处理文件。
