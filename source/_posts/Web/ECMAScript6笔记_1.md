@@ -14,8 +14,8 @@ date: 2017-03-06 00:54:57
 
 #### let
 声明块级作用域变量
-let用在花括号{ }里面
-在用let声明之前，变量不可用，会报错，而var声明之前的变量则返回undefined
+`let` 用在花括号 { }里面
+在用 `let` 声明之前，变量不可用，会报错，而 `var` 声明之前的变量则返回 `undefined`
 
 #### class
 更接近传统OOP的写法
@@ -37,7 +37,7 @@ class YellowCat extends Cat{
 #### 箭头函数 =>
 `i => i+1;`
 等于ES5的 `function(i){return i+1}`
-简洁的无法接受！跟ES5不同的是function中的this指向定义function时的对象，而不是运行时的所在对象
+简洁的无法接受！跟ES5不同的是function中的 `this` 指向定义function时的对象，而不是运行时的所在对象
 比如ES5经常用的
 ```js
 var self = this;
@@ -55,13 +55,13 @@ setTimeout( (str) => this.hello(str) , 1000)
 ```js
 var a = 123, b = 456;
 var c = {a,b};
-//c = {a:123, b:456}
+// c = {a:123, b:456}
 ```
 还可以倒过来赋值
 ```js
 var d = {a:"cat", b:"monkey"}
 var {a, b} = d;
-//a = "cat", b = "monkey"
+// a = "cat", b = "monkey"
 ```
 
 #### default
@@ -87,6 +87,6 @@ function test(...types){
     console.log(arguments);
 }
 test(1,3,5,6,"a","b");
-//--> [1, 3, 5, 6, "a", "b"]
-//--> [1, 3, 5, 6, "a", "b"]
+// --> [1, 3, 5, 6, "a", "b"]
+// --> [1, 3, 5, 6, "a", "b"]
 ```
