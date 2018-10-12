@@ -41,7 +41,7 @@ function* Generator() {
 let hello = Generator()
 ```
 
-`Generator()` 之后函数并不会立马执行，而是返回一个迭代器对象(Iterable)
+`Generator()` 之后函数并不会立马执行，而是返回一个迭代器对象(Iterable Object)
 
 ![generator](/images/2018/09/generator1.png)
 
@@ -63,7 +63,7 @@ hello.next()
 因为函数结尾没有 `return` 所以最后返回 `value: undefined`，此时 `done: true` 表示函数执行完毕，hello的状态变成由 `suspended` 变成 `closed`
 此时若再次执行 `hello.next()` 也依旧返回 `value: undefined`，
 
-### next()传参
+### next() 传参
 
 `next()` 支持传参，`yield` 默认是无返回，即是undefined，如果传入值，则会被当做 `yield` 返回值
 
@@ -90,7 +90,7 @@ hello.next('c')
 第一个 `next('a')` 传入'a'，此时函数开始运行，直到第一次遇到 `yield i--` ，此时暂停并返回 `i = 10` ，因为已经暂停，所以并不会执行 `console.log()`，实际上第一次执行 `next()` 只相当于 `start()` 的效果，所以传参并没有意义
 第二个 `next('b')` 传入'b'，执行第一次循环被暂停的 `console.log()` 打印 `b`，接着循环到第二次 `yield i--`，并返回 `i = 9`
 
-### throw()抛出异常
+### throw() 抛出异常
 
 迭代器对象自身有 `throw()` 方法，可以在外面抛出异常到函数内部
 ```js
@@ -116,7 +116,7 @@ hello.throw('b')
 上面代码迭代器对象的 `throw()` 只对内部抛出异常，而当内部没有 `catch` 到时会产生外部的异常，而全局的 `throw()` 则只能对外部抛出异常
 需要特别注意的是要先执行 `next()` 后才可以执行 `throw()`，如果直接执行 `throw()` 外部会异常，此时迭代器对象直接变成 `close` 状态
 
-### return()终止迭代器
+### return() 终止迭代器
 
 相当于函数内的 `return`，迭代器对象不会再执行未执行的代码，状态变为 `close` 并返回传入值
 
@@ -207,5 +207,3 @@ hello.next()
 ```
 
 可以看出 `yield*` 把 `inner()` 也迭代执行了，一直执行到 `return` ，嵌套函数结束，然后把控制权交回主函数
-
-
