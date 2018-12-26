@@ -1,5 +1,5 @@
 ---
-title: 'Canvas踩坑(1)实时透明线'
+title: 'Canvas踩坑(1)实时绘制透明线'
 categories:
   - Web
 tags:
