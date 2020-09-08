@@ -1,9 +1,8 @@
 ---
 title: vue-cli下解决跨域sessionid问题
 tags:
-  - node.js
-  - vue
-  - vue-cli
+  - nodejs
+  - vuejs
   - javascript
 id: 1835
 categories:
