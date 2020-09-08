@@ -64,7 +64,7 @@ upload(fileObj) {
 ```
 调用axios执行上传，把 file对象塞到 `data` 即可
 
-axios自带上传时钩子 `onUploadProgress`，如果需要显示上传进度，可把 upload组件的 `onProgress` 传给axiox，修改如下
+axios自带上传时钩子 `onUploadProgress`，如果需要显示上传进度，可把 upload组件的 `onProgress` 传给axios，修改如下
 
 ```js
 upload(fileObj) {
