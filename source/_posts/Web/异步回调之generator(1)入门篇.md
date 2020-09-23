@@ -3,6 +3,7 @@ title: 异步回调之generator（1）入门篇
 tags:
   - javascript
   - generator
+  - ES6
 categories:
   - Web
 abbrlink: ddbd4da6

@@ -18,7 +18,7 @@ tags:
 >
 > [Microsoft][ODBC SQL Server Driver][SQL Server]用户 'sa' 登录失败。原因: 未与信任 SQL Server 连接相关联。
 >
-> /conn.asp，行7</DIV>
+> /conn.asp，行7
 
 该错误产生的原因是由于SQL Server使用了"仅 Windows"的身份验证方式，因此用户无法使用SQL Server的登录帐户（如 sa ）进行连接。解决方法如下所示：
 
